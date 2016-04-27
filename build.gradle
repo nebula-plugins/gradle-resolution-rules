@@ -41,7 +41,7 @@ contacts {
     }
 }
 
-allprojects {
+subprojects {
     checkResolutionRulesSyntax {
         rules fileTree('src/rules').include('**/*.json')
     }
@@ -51,6 +51,16 @@ allprojects {
             nebula(MavenPublication) {
                 artifact packageRules
             }
+        }
+    }
+
+
+    project.gradle.taskGraph.whenReady { TaskExecutionGraph graph ->
+        project.tasks.bintrayUpload.onlyIf {
+            graph.hasTask(':final') || graph.hasTask(':candidate')
+        }
+        project.tasks.artifactoryPublish.onlyIf {
+            graph.hasTask(':snapshot') || graph.hasTask(':devSnapshot')
         }
     }
 }
