@@ -1,0 +1,2 @@
+include 'oss-replacement-rules'
+include 'slf4j-bridge-replacement-rules'
