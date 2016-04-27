@@ -23,7 +23,12 @@ buildscript {
 plugins {
     id 'nebula.info' version '3.0.3'
     id 'nebula.contacts' version '3.0.1'
+
+    id 'nebula.maven-publish' version '4.4.4'
+    id 'nebula.maven-apache-license' version '4.4.4'
     id 'nebula.nebula-release' version '3.1.1'
+    id 'nebula.nebula-bintray' version '3.1.0'
+    id 'nebula.resolution-rules-producer' version '1.1.4'
 }
 
 description 'Rules for the Resolution Rules plugin'
@@ -38,5 +43,32 @@ contacts {
 }
 
 subprojects {
+    apply plugin: 'nebula.maven-publish'
+    apply plugin: 'nebula.maven-apache-license'
     apply plugin: 'nebula.nebula-release'
+    apply plugin: 'nebula.nebula-bintray'
+    apply plugin: 'nebula.resolution-rules-producer'
+
+    checkResolutionRulesSyntax {
+        rules fileTree('src/rules').include('**/*.json')
+    }
+
+    tasks.jar.dependsOn 'checkResolutionRulesSyntax'
+
+    publishing {
+        publications {
+            nebula(MavenPublication) {
+                artifact packageRules
+            }
+        }
+    }
+
+    project.gradle.taskGraph.whenReady { TaskExecutionGraph graph ->
+        project.tasks.bintrayUpload.onlyIf {
+            graph.hasTask(':final') || graph.hasTask(':candidate')
+        }
+        project.tasks.artifactoryPublish.onlyIf {
+            graph.hasTask(':snapshot') || graph.hasTask(':devSnapshot')
+        }
+    }
 }
