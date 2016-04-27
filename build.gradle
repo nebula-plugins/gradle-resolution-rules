@@ -55,14 +55,6 @@ subprojects {
 
     tasks.jar.dependsOn 'checkResolutionRulesSyntax'
 
-    publishing {
-        publications {
-            nebula(MavenPublication) {
-                artifact packageRules
-            }
-        }
-    }
-
     project.gradle.taskGraph.whenReady { TaskExecutionGraph graph ->
         project.tasks.bintrayUpload.onlyIf {
             graph.hasTask(':final') || graph.hasTask(':candidate')
