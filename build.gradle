@@ -36,3 +36,7 @@ contacts {
         github 'DanielThomas'
     }
 }
+
+subprojects {
+    apply plugin: 'nebula.nebula-release'
+}
