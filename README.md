@@ -19,7 +19,7 @@ Add a dependency on this project to apply the rules to the project:
 
 # Included rules
 
-Refer to the JSON files in `src/rules` for details of the included rules. Optional rules are documented below.
+Refer to the JSON files in `src/main/resources` for details of the included rules. Optional rules are documented below.
 
 # Optional rules
 
