@@ -107,13 +107,6 @@
                 "reason": "Align all Netty libraries",
                 "author": "Danny Thomas <dannyt@netflix.com>",
                 "date": "2016-04-28T22:31:14.321Z"
-            },
-            {
-                "name": "align-jackson",
-                "group": "com.fasterxml.*",
-                "reason": "Align all Jackson libraries",
-                "author": "Danny Thomas <dannyt@netflix.com>",
-                "date": "2016-04-28T22:31:14.321Z"
             }
     ]
 }
