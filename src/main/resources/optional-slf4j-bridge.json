@@ -1,5 +1,5 @@
 {
-    "subsitute": [
+    "substitute": [
         {
             "module": "commons-logging:commons-logging",
             "with": "org.slf4j:jcl-over-slf4j:1.+",
