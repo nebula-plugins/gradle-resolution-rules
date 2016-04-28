@@ -21,6 +21,7 @@ buildscript {
 }
 
 plugins {
+    id 'java'
     id 'nebula.info' version '3.0.3'
     id 'nebula.contacts' version '3.0.1'
     id 'nebula.maven-publish' version '4.4.4'
