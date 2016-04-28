@@ -14,7 +14,7 @@ This project includes rules for OSS libraries available in Maven Central and oth
 Add a dependency on this project to apply the rules to the project:
 
     dependencies {
-        resolutionRules 'com.netflix.nebula:resolution-rules:latest.release'
+        resolutionRules 'com.netflix.nebula:gradle-resolution-rules:latest.release'
     }
 
 # Included rules
