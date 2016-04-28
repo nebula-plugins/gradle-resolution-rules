@@ -8,7 +8,25 @@ Rules for the [Gradle Resolution Rules plugin](https://github.com/nebula-plugins
 
 This project includes rules for OSS libraries available in Maven Central and other public repositories.
 
-# Optional Rules
+# Using the rules
+
+Add a dependency on this project to apply the rules to the project:
+
+    dependencies {
+        resolutionRules 'com.netflix.nebula:resolution-rules:latest.release'
+    }
+
+# Included rules
+
+Refer to the JSON files in `src/rules` for details of the included rules. Optional rules are documented below.
+
+# Optional rules
+
+Optional rules can be enabled by adding the name of the rule set to the list of `include`d rules:
+
+    nebulaResolutionRules {
+        include = ['optional-slf4j-bridge']
+    }
 
 | Rule Set Name | Description   |
 | ------------- |:-------------:|
