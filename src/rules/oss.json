@@ -85,8 +85,35 @@
                 "date" : "2016-04-26T00:00:00.000Z"
             }
     ],
-    "substitute": [],
-    "deny": [],
-    "reject": [],
-    "align": []
+    "align": [
+            {
+                "name": "align-aws-java-sdk",
+                "group": "com.amazonaws",
+                "include": ["aws-java-sdk-.*"],
+                "reason": "Align AWS Java SDK libraries",
+                "author": "Danny Thomas <dannyt@netflix.com>",
+                "date": "2016-04-28T22:31:14.321Z"
+            },
+            {
+                "name": "align-slf4j",
+                "group": "org.slf4j",
+                "reason": "Align all SLF4J libraries",
+                "author": "Danny Thomas <dannyt@netflix.com>",
+                "date": "2016-04-28T22:31:14.321Z"
+            },
+            {
+                "name": "align-netty",
+                "group": "io.netty",
+                "reason": "Align all Netty libraries",
+                "author": "Danny Thomas <dannyt@netflix.com>",
+                "date": "2016-04-28T22:31:14.321Z"
+            },
+            {
+                "name": "align-jackson",
+                "group": "com.fasterxml.*",
+                "reason": "Align all Jackson libraries",
+                "author": "Danny Thomas <dannyt@netflix.com>",
+                "date": "2016-04-28T22:31:14.321Z"
+            }
+    ]
 }
