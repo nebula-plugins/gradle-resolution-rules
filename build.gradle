@@ -23,7 +23,6 @@ buildscript {
 plugins {
     id 'nebula.info' version '3.0.3'
     id 'nebula.contacts' version '3.0.1'
-
     id 'nebula.maven-publish' version '4.4.4'
     id 'nebula.maven-apache-license' version '4.4.4'
     id 'nebula.nebula-release' version '3.1.1'
@@ -42,25 +41,18 @@ contacts {
     }
 }
 
-subprojects {
-    apply plugin: 'nebula.maven-publish'
-    apply plugin: 'nebula.maven-apache-license'
-    apply plugin: 'nebula.nebula-release'
-    apply plugin: 'nebula.nebula-bintray'
-    apply plugin: 'nebula.resolution-rules-producer'
+checkResolutionRulesSyntax {
+    rules fileTree('src/rules').include('**/*.json')
+}
 
-    checkResolutionRulesSyntax {
-        rules fileTree('src/rules').include('**/*.json')
+tasks.jar.dependsOn 'checkResolutionRulesSyntax'
+
+project.gradle.taskGraph.whenReady { TaskExecutionGraph graph ->
+    project.tasks.bintrayUpload.onlyIf {
+        graph.hasTask(':final') || graph.hasTask(':candidate')
     }
-
-    tasks.jar.dependsOn 'checkResolutionRulesSyntax'
-
-    project.gradle.taskGraph.whenReady { TaskExecutionGraph graph ->
-        project.tasks.bintrayUpload.onlyIf {
-            graph.hasTask(':final') || graph.hasTask(':candidate')
-        }
-        project.tasks.artifactoryPublish.onlyIf {
-            graph.hasTask(':snapshot') || graph.hasTask(':devSnapshot')
-        }
+    project.tasks.artifactoryPublish.onlyIf {
+        graph.hasTask(':snapshot') || graph.hasTask(':devSnapshot')
     }
 }
+
