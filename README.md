@@ -6,9 +6,22 @@ Gradle Resolution Rules
 
 Rules for the [Gradle Resolution Rules plugin](https://github.com/nebula-plugins/gradle-resolution-rules-plugin).
 
-# Rules
+This project includes rules for OSS libraries available in Maven Central and other public repositories.
 
-TODO.
+# Optional Rules
+
+| Rule Set Name | Description   |
+| ------------- |:-------------:|
+| `optional-slf4j-bridge` | Replaces concrete logging implementations with SLF4J bridges |
+
+# Contributing Rules
+
+Contributions are more than welcome, however please keep these guidelines in mind when submitting a pull request:
+
+- Default rules are intended to offer _correctness_. For example, a rule that tells Gradle that Google Collections was replaced by Guava provides correctness, as it causes those libraries with overlapping classes to conflict resolve
+- Optional rules are intended for rules that might cause problems due to edge cases, or provide a useful opinion. For instace, replacing Log4J with the SLF4J bridge is an opinion, but useful and correct when using SLF4J
+- Opinions that prefer one library over another, when it's not a compatible replacement (see 'correctness' above) are not suitable rules for this project
+- Rules should be for libraries in commonly used, public repositories, that have broad use. For esoteric use cases, we recommend publishing you own rules using the [https://github.com/nebula-plugins/gradle-resolution-rules-plugin#producing-rules](Producing rules) instructions.
 
 LICENSE
 =======
