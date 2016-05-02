@@ -1,0 +1,7 @@
+{
+    "align": [
+        {
+            "group": "(com\.sun\.jersey|com\.sun\.jersey\.contribs)"
+        }
+    ]
+}
