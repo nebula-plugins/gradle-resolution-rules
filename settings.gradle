@@ -1,2 +1,1 @@
-include 'oss-replacement-rules'
-include 'slf4j-bridge-replacement-rules'
+rootProject.name = 'gradle-resolution-rules'
