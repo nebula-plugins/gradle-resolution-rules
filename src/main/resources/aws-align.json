@@ -1,0 +1,11 @@
+{
+    "align": [
+        {
+            "name": "aws-align",
+            "group": "com\.amazonaws",
+            "reason": "Misaligned AWS jars can cause compilation errors.",
+            "author": "noel.yap+github.com@gmail.com",
+            "date": "2016-05-04"
+        }
+    ]
+}
