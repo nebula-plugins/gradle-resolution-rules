@@ -2,7 +2,7 @@
     "align": [
         {
             "name": "jersey-align",
-            "group": "(com\.sun\.jersey|com\.sun\.jersey\.contribs)",
+            "group": "(com\\.sun\\.jersey|com\\.sun\\.jersey\\.contribs)",
             "reason": "Misaligned Jersey jars cause strange runtime errors.",
             "author": "noel.yap+github.com@gmail.com",
             "date": "2016-05-03"

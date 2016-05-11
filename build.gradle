@@ -43,7 +43,7 @@ contacts {
 }
 
 checkResolutionRulesSyntax {
-    rules fileTree('src/rules').include('**/*.json')
+    rules fileTree('src/main/resources').include('**/*.json')
 }
 
 tasks.jar.dependsOn 'checkResolutionRulesSyntax'
