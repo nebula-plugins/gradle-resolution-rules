@@ -32,7 +32,7 @@ Optional rules can be enabled by adding the name of the rule set to the list of 
 | Rule Set Name | Description   |
 | ------------- |:-------------:|
 | `optional-slf4j-bridge` | Replaces concrete logging implementations with SLF4J bridges |
-| `optional-replace-bouncycastle | Replaces bouncycastle group dependencies with org.bouncycastle |
+| `optional-replace-bouncycastle` | Replaces `bouncycastle` group dependencies with `org.bouncycastle` |
 
 # Contributing Rules
 
