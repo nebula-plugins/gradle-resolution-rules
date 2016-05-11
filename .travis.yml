@@ -13,8 +13,6 @@ cache:
 before_install:
 - test $TRAVIS_PULL_REQUEST = false && openssl aes-256-cbc -K $encrypted_832b02c80e0c_key -iv $encrypted_832b02c80e0c_iv
   -in gradle.properties.enc -out gradle.properties -d || true
-after_success:
-- "./gradlew jacocoTestReport coveralls"
 notifications:
   webhooks:
     urls:
