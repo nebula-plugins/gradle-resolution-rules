@@ -1,0 +1,11 @@
+{
+    "align": [
+            {
+                "name": "align-slf4j",
+                "group": "org.slf4j",
+                "reason": "Align all SLF4J libraries",
+                "author": "Danny Thomas <dannyt@netflix.com>",
+                "date": "2016-04-28T22:31:14.321Z"
+            }
+    ]
+}

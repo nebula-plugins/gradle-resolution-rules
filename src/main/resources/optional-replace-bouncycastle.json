@@ -1,34 +1,6 @@
 {
     "replace" : [
             {
-                "module" : "asm:asm",
-                "with" : "org.ow2.asm:asm",
-                "reason" : "The asm group id changed for 4.0 and later",
-                "author" : "Danny Thomas",
-                "date" : "2016-04-26T00:00:00.000Z"
-            },
-            {
-                "module" : "com.google.collections:google-collections",
-                "with" : "com.google.guava:guava",
-                "reason" : "Google Collections was superceded by Guava",
-                "author" : "Danny Thomas",
-                "date" : "2016-04-26T00:00:00.000Z"
-            },
-            {
-                "module" : "javassist:javassist",
-                "with" : "org.javassist:javassist",
-                "reason" : "The javassist group id changed for 3.13.0-GA and later",
-                "author" : "Danny Thomas",
-                "date" : "2016-04-26T00:00:00.000Z"
-            },
-            {
-                "module" : "xerces:xerces",
-                "with" : "xerces:xercesImpl",
-                "reason" : "The xerces artifact id changed for 2.0.0 and later",
-                "author" : "Danny Thomas",
-                "date" : "2016-04-26T00:00:00.000Z"
-            },
-            {
                 "module": "bouncycastle:bcmail-jdk16",
                 "with" : "org.bouncycastle:bcmail-jdk16",
                 "reason" : "The bouncycastle group is not official - http://bouncy-castle.1462172.n4.nabble.com/inconsistent-pom-file-relocation-td4657368.html",
@@ -83,30 +55,6 @@
                 "reason" : "The bouncycastle group is not official - http://bouncy-castle.1462172.n4.nabble.com/inconsistent-pom-file-relocation-td4657368.html",
                 "author" : "Danny Thomas",
                 "date" : "2016-04-26T00:00:00.000Z"
-            }
-    ],
-    "align": [
-            {
-                "name": "align-aws-java-sdk",
-                "group": "com.amazonaws",
-                "include": ["aws-java-sdk-.*"],
-                "reason": "Align AWS Java SDK libraries",
-                "author": "Danny Thomas <dannyt@netflix.com>",
-                "date": "2016-04-28T22:31:14.321Z"
-            },
-            {
-                "name": "align-slf4j",
-                "group": "org.slf4j",
-                "reason": "Align all SLF4J libraries",
-                "author": "Danny Thomas <dannyt@netflix.com>",
-                "date": "2016-04-28T22:31:14.321Z"
-            },
-            {
-                "name": "align-netty",
-                "group": "io.netty",
-                "reason": "Align all Netty libraries",
-                "author": "Danny Thomas <dannyt@netflix.com>",
-                "date": "2016-04-28T22:31:14.321Z"
             }
     ]
 }
