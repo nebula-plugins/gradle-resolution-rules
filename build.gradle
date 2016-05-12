@@ -46,7 +46,7 @@ checkResolutionRulesSyntax {
     rules fileTree('src/main/resources').include('**/*.json')
 }
 
-tasks.jar.dependsOn 'checkResolutionRulesSyntax'
+check.dependsOn 'checkResolutionRulesSyntax'
 
 project.gradle.taskGraph.whenReady { TaskExecutionGraph graph ->
     project.tasks.bintrayUpload.onlyIf {
