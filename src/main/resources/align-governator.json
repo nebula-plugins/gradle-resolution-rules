@@ -1,0 +1,12 @@
+{
+    "align": [
+            {
+                "name": "align-governator",
+                "group": "com.netflix.governator",
+                "include": ["governator(-.*)?"],
+                "reason": "Align Netflix Governator libraries",
+                "author": "Noel Yap <noel.yap+github.com@gmail.com>",
+                "date": "2016-05-12"
+            }
+    ]
+}
