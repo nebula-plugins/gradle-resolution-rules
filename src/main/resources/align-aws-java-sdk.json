@@ -3,7 +3,7 @@
             {
                 "name": "align-aws-java-sdk",
                 "group": "com.amazonaws",
-                "include": ["aws-java-sdk-.*"],
+                "include": ["aws-java-sdk.*"],
                 "reason": "Align AWS Java SDK libraries",
                 "author": "Danny Thomas <dannyt@netflix.com>",
                 "date": "2016-04-28T22:31:14.321Z"
