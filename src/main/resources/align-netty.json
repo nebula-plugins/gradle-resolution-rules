@@ -1,0 +1,12 @@
+{
+    "align": [
+            {
+                "name": "align-netty",
+                "group": "io.netty",
+                "excludes": ["netty", "netty-metrics-yammer", "netty-tcnative-boringssl-static", "netty-tcnative", "netty-tcnative-parent", "netty-microbench", "netty-codec-smtp", "netty-build"],
+                "reason": "Align all Netty libraries",
+                "author": "Danny Thomas <dannyt@netflix.com>",
+                "date": "2016-04-28"
+            }
+    ]
+}
