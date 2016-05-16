@@ -60,6 +60,5 @@
     "align": [],
     "substitute": [],
     "deny": [],
-    "reject": [],
-    "exclude": []
+    "reject": []
 }
