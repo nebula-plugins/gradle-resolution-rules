@@ -8,5 +8,9 @@
                 "author": "Noel Yap <noel.yap+github.com@gmail.com>",
                 "date": "2016-05-13"
             }
-    ]
+    ],
+    "replace": [],
+    "substitute": [],
+    "deny": [],
+    "reject": []
 }
