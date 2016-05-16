@@ -1,0 +1,15 @@
+{
+    "align": [
+            {
+                "group": "com.thoughtworks.xstream",
+                "reason": "Align all xstream libraries",
+                "author": "Danny Thomas <dannyt@netflix.com>",
+                "date": "2016-05-15"
+            }
+    ],
+    "replace": [],
+    "substitute": [],
+    "deny": [],
+    "reject": [],
+    "exclude": []
+}
