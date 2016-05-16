@@ -14,5 +14,10 @@
             "author": "Danny Thomas <dannyt@netflix.com>",
             "date": "2016-04-28T22:31:14.321Z"
         }
-    ]
+    ],
+    "replace": [],
+    "align": [],
+    "deny": [],
+    "reject": [],
+    "exclude": []
 }
