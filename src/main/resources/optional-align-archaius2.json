@@ -1,0 +1,16 @@
+{
+    "align": [
+            {
+                "name": "align-archaius2",
+                "group": "com.netflix.archaius",
+                "include": ["archaius2-.*"],
+                "reason": "Align Netflix Archaius2 libraries",
+                "author": "Noel Yap <noel.yap+github.com@gmail.com>",
+                "date": "2016-05-13"
+            }
+    ],
+    "replace": [],
+    "substitute": [],
+    "deny": [],
+    "reject": []
+}
