@@ -28,5 +28,10 @@
                 "author" : "Danny Thomas",
                 "date" : "2016-04-26T00:00:00.000Z"
             }
-    ]
+    ],
+    "align": [],
+    "substitute": [],
+    "deny": [],
+    "reject": [],
+    "exclude": []
 }

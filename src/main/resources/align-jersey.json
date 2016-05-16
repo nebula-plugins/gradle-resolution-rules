@@ -7,5 +7,10 @@
             "author": "noel.yap+github.com@gmail.com",
             "date": "2016-05-03"
         }
-    ]
+    ],
+    "replace": [],
+    "substitute": [],
+    "deny": [],
+    "reject": [],
+    "exclude": []
 }
