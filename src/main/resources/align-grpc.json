@@ -3,7 +3,6 @@
             {
                 "name": "align-grpc",
                 "group": "io.grpc",
-                "include": ["grpc-.*"],
                 "reason": "Align gRPC libraries",
                 "author": "Noel Yap <noel.yap+github.com@gmail.com>",
                 "date": "2016-05-13"
