@@ -27,7 +27,7 @@ Refer to the JSON files in `src/main/resources` for details of the included rule
 Optional rules can be enabled by adding the name of the rule set to the list of `include`d rules:
 
     nebulaResolutionRules {
-        include = ['optional-slf4j-bridge']
+        optional = ['slf4j-bridge']
     }
 
 | Rule Set Name | Description   |
