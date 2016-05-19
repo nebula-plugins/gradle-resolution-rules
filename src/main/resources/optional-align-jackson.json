@@ -1,0 +1,16 @@
+{
+    "align": [
+            {
+                "group": "com\\.fasterxml\\.jackson\\.(core|data|format|datatype|jaxrs|jr|module)",
+                "excludes": ["jackson-module-scala_2.12.0-M4", "jackson-module-scala_2.11", "jackson-module-scala_2.10", "jackson-module-scala_2.9.3", "jackson-module-scala_2.9.2", "jackson-module-scala_2.9.1", "jackson-module-swagger", "jackson-module-scala", "jackson-datatype-jdk7", "jackson-datatype-hibernate"],
+                "reason": "Align all Jackson libraries",
+                "match": "EXCLUDE_SUFFIXES",
+                "author": "Danny Thomas <dannyt@netflix.com>",
+                "date": "2016-05-19"
+            }
+    ],
+    "replace": [],
+    "substitute": [],
+    "deny": [],
+    "reject": []
+}
