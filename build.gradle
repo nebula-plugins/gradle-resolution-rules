@@ -28,7 +28,6 @@ plugins {
     id 'nebula.maven-apache-license' version '4.4.4'
     id 'nebula.nebula-release' version '3.1.1'
     id 'nebula.nebula-bintray' version '3.1.0'
-    id 'nebula.resolution-rules-producer' version '1.3.0'
 }
 
 description 'Rules for the Resolution Rules plugin'
@@ -42,12 +41,6 @@ contacts {
     }
 }
 
-checkResolutionRulesSyntax {
-    rules fileTree('src/main/resources').include('**/*.json')
-}
-
-check.dependsOn 'checkResolutionRulesSyntax'
-
 project.gradle.taskGraph.whenReady { TaskExecutionGraph graph ->
     project.tasks.bintrayUpload.onlyIf {
         graph.hasTask(':final') || graph.hasTask(':candidate')
@@ -56,4 +49,3 @@ project.gradle.taskGraph.whenReady { TaskExecutionGraph graph ->
         graph.hasTask(':snapshot') || graph.hasTask(':devSnapshot')
     }
 }
-
