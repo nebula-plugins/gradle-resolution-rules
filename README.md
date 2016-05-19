@@ -32,9 +32,9 @@ Optional rules can be enabled by adding the name of the rule set to the list of 
 
 | Rule Set Name | Description   |
 | ------------- |:-------------:|
-| `optional-align-spring` | Aligns `org.springframework` and `org.springframework.integration` |
-| `optional-replace-bouncycastle` | Replaces `bouncycastle` group dependencies with `org.bouncycastle` |
-| `optional-slf4j-bridge` | Replaces concrete logging implementations with SLF4J bridges |
+| `align-spring` | Aligns `org.springframework` and `org.springframework.integration` |
+| `replace-bouncycastle` | Replaces `bouncycastle` group dependencies with `org.bouncycastle` |
+| `slf4j-bridge` | Replaces concrete logging implementations with SLF4J bridges |
 
 # Contributing Rules
 
