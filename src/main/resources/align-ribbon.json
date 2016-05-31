@@ -1,0 +1,16 @@
+{
+    "align": [
+        {
+            "group": "com\\.netflix\\.ribbon",
+            "excludes": ["ribbon-httpasyncclient"],
+            "reason": "Align Ribbon libraries.",
+            "author": "Danny Thomas <dannyt@netflix.com>",
+            "date": "2016-05-31"
+        }
+    ],
+    "replace": [],
+    "substitute": [],
+    "deny": [],
+    "reject": [],
+    "exclude": []
+}
