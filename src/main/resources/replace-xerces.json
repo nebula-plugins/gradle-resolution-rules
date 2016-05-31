@@ -1,0 +1,15 @@
+{
+    "replace" : [
+            {
+                "module" : "xerces:xerces",
+                "with" : "xerces:xercesImpl",
+                "reason" : "The xerces artifact id changed for 2.0.0 and later",
+                "author" : "Danny Thomas",
+                "date" : "2016-04-26T00:00:00.000Z"
+            }
+    ],
+    "align": [],
+    "substitute": [],
+    "deny": [],
+    "reject": []
+}
