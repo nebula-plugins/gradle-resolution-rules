@@ -1,0 +1,15 @@
+{
+    "replace" : [
+            {
+                "module" : "javassist:javassist",
+                "with" : "org.javassist:javassist",
+                "reason" : "The javassist group id changed for 3.13.0-GA and later",
+                "author" : "Danny Thomas",
+                "date" : "2016-04-26T00:00:00.000Z"
+            }
+    ],
+    "align": [],
+    "substitute": [],
+    "deny": [],
+    "reject": []
+}
