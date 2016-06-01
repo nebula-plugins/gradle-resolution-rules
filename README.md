@@ -18,6 +18,8 @@ Add a dependency on this project to apply the rules to the project:
         resolutionRules 'com.netflix.nebula:gradle-resolution-rules:latest.release'
     }
 
+The artifact is available on Bintray, JCenter and Maven Central.
+
 # Included rules
 
 Refer to the JSON files in `src/main/resources` for details of the included rules. Optional rules are documented below.
