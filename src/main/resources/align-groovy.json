@@ -1,0 +1,15 @@
+{
+    "align": [
+            {
+                "group": "org\\.codehaus\\.groovy",
+                "excludes": ["groovy-(eclipse-compiler|eclipse-batch|all-tests|xmlrpc|all-jdk14|jdk14|all-minimal)", "http-builder"],
+                "reason": "Align Groovy libraries.",
+                "author": "Danny Thomas <dannyt@netflix.com>",
+                "date": "2016-06-01"
+            }
+    ],
+    "replace": [],
+    "substitute": [],
+    "deny": [],
+    "reject": []
+}
