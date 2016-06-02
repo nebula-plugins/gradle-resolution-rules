@@ -2,9 +2,9 @@ Gradle Resolution Rules
 =======
 
 ![Support Status](https://img.shields.io/badge/nebula-supported-brightgreen.svg)
-[![Version](https://img.shields.io/bintray/v/nebula/gradle-plugins/gradle-resolution-rules.svg)](https://bintray.com/nebula/gradle-plugins/gradle-resolution-rules)
 [![Build Status](https://travis-ci.org/nebula-plugins/gradle-resolution-rules.svg?branch=master)](https://travis-ci.org/nebula-plugins/gradle-resolution-rules)
 [![Apache 2.0](https://img.shields.io/github/license/nebula-plugins/gradle-metrics-plugin.svg)](http://www.apache.org/licenses/LICENSE-2.0)
+[![Version](https://img.shields.io/bintray/v/nebula/gradle-plugins/gradle-resolution-rules.svg)](https://bintray.com/nebula/gradle-plugins/gradle-resolution-rules)
 
 Rules for the [Gradle Resolution Rules plugin](https://github.com/nebula-plugins/gradle-resolution-rules-plugin).
 
