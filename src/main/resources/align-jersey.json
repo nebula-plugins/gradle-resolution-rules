@@ -3,6 +3,7 @@
         {
             "name": "jersey-align",
             "group": "(com\\.sun\\.jersey|com\\.sun\\.jersey\\.contribs)",
+            "excludes": ["jersey", "jersey-(jrebel|tests|test-framework|spring|contribs)", "maven-wadl-plugin"],
             "reason": "Misaligned Jersey jars cause strange runtime errors.",
             "author": "noel.yap+github.com@gmail.com",
             "date": "2016-05-03"

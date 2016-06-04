@@ -3,6 +3,7 @@
         {
             "name": "guice-align",
             "group": "(com\\.google\\.inject|com\\.google\\.inject\\.extensions)",
+            "excludes": ["guice-(struts2-plugin|throwing-providers|assisted-inject|dagger-adapter)"],
             "reason": "Misaligned Guice jars cause strange runtime errors.",
             "author": "taylor.wicksell+github.com@gmail.com",
             "date": "2016-05-06"

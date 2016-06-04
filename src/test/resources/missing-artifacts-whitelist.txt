@@ -1,0 +1,17 @@
+org.codehaus.groovy:groovy-backports-compat23:2.4.0-beta-1
+io.netty:netty-transport-native-epoll:5.0.0.Alpha1
+io.netty:netty-testsuite-osgi:5.0.0.Alpha1
+io.netty:netty-testsuite:5.0.0.Alpha1
+io.netty:netty-handler-proxy:5.0.0.Alpha1
+io.netty:netty-resolver-dns:5.0.0.Alpha1
+io.netty:netty-codec-xml:5.0.0.Alpha1
+io.netty:netty-codec-stomp:5.0.0.Alpha1
+io.netty:netty-codec-mqtt:5.0.0.Alpha1
+io.netty:netty-codec-http2:5.0.0.Alpha1
+io.netty:netty-codec-haproxy:5.0.0.Alpha1
+io.netty:netty-codec-dns:5.0.0.Alpha1
+io.netty:netty-resolver:5.0.0.Alpha1
+org.slf4j:slf4j-android:1.7.2
+org.slf4j:slf4j-android:1.7.3
+org.slf4j:slf4j-android:1.7.4
+org.slf4j:slf4j-android:1.7.5

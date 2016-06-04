@@ -4,6 +4,7 @@
                 "name": "align-aws-java-sdk",
                 "group": "com.amazonaws",
                 "includes": ["aws-java-sdk.*"],
+                "excludes": ["aws-java-sdk-(handwritten-samples|sample-extractor|samples-pom|generated-samples|samples|archetype)"],
                 "reason": "Align AWS Java SDK libraries",
                 "author": "Danny Thomas <dannyt@netflix.com>",
                 "date": "2016-04-28T22:31:14.321Z"

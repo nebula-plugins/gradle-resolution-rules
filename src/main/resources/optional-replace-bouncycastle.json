@@ -48,13 +48,6 @@
                 "reason" : "The bouncycastle group is not official - http://bouncy-castle.1462172.n4.nabble.com/inconsistent-pom-file-relocation-td4657368.html",
                 "author" : "Danny Thomas",
                 "date" : "2016-04-26T00:00:00.000Z"
-            },
-            {
-                "module": "bouncycastle:bctsp-jdk14",
-                "with" : "org.bouncycastle:bctsp-jdk14",
-                "reason" : "The bouncycastle group is not official - http://bouncy-castle.1462172.n4.nabble.com/inconsistent-pom-file-relocation-td4657368.html",
-                "author" : "Danny Thomas",
-                "date" : "2016-04-26T00:00:00.000Z"
             }
     ],
     "align": [],
