@@ -2,8 +2,8 @@
     "align": [
         {
             "group": "org\\.springframework\\.integration",
-            "includes": ["spring-integration-jdbc", "spring-integration-ws", "spring-integration-bom", "spring-integration-ftp", "spring-integration-gemfire", "spring-integration-jms", "spring-integration-scripting", "spring-integration-amqp", "spring-integration-syslog", "spring-integration-twitter", "spring-integration-mqtt", "spring-integration-feed", "spring-integration-xmpp", "spring-integration-xml", "spring-integration-sftp", "spring-integration-stomp", "spring-integration-jpa", "spring-integration-test", "spring-integration-core", "spring-integration-file", "spring-integration-ip", "spring-integration-stream", "spring-integration-jmx", "spring-integration-mongodb", "spring-integration-zookeeper", "spring-integration-groovy", "spring-integration-redis", "spring-integration-http", "spring-integration-rmi", "spring-integration-websocket", "spring-integration-mail", "spring-integration-security", "spring-integration-event"],
-            "reason": "Align Spring Integration libraries",
+            "includes": ["spring-integration-(jdbc|ws|bom|ftp|gemfire|jms|scripting|amqp|syslog|twitter|mqtt|feed|xmpp|xml|sftp|stomp|jpa|test|core|file|ip|stream|jmx|mongodb|zookeeper|groovy|redis|http|rmi|websocket|mail|security|event)"],
+            "reason": "Align Spring Integration 1 release libraries",
             "author": "Danny Thomas <dannyt@netflix.com>",
             "date": "2016-05-16"
         }

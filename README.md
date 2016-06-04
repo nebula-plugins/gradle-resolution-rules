@@ -8,7 +8,7 @@ Gradle Resolution Rules
 
 Rules for the [Gradle Resolution Rules plugin](https://github.com/nebula-plugins/gradle-resolution-rules-plugin).
 
-This project includes rules for OSS libraries available in Maven Central and other public repositories.
+This project includes rules for libraries available in Maven Central.
 
 # Using the rules
 
