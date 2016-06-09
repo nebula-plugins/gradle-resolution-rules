@@ -1,0 +1,36 @@
+{
+    "replace" : [
+            {
+                "module" : "javax.servlet:servlet-api",
+                "with" : "javax.servlet:javax.servlet-api",
+                "reason" : "servlet-api has been replaced with javax.servlet-api",
+                "author" : "Rob Spieldenner",
+                "date" : "2016-06-09T17:12:34.000Z"
+            },
+            {
+              "module" : "javax.servlet:jsp-api",
+              "with" : "javax.servlet.jsp:javax.servlet.jsp-api",
+              "reason" : "jsp-api has been replaced with javax.servlet.jsp-api",
+              "author" : "Rob Spieldenner",
+              "date" : "2016-06-09T17:12:34.000Z"
+            },
+            {
+                "module" : "javax.servlet.jsp:jsp-api",
+                "with" : "javax.servlet.jsp:javax.servlet.jsp-api",
+                "reason" : "jsp-api has been replaced with javax.servlet.jsp-api",
+                "author" : "Rob Spieldenner",
+                "date" : "2016-06-09T17:12:34.000Z"
+            },
+            {
+                "module" : "javax.el:el-api",
+                "with" : "javax.el:javax.el-api",
+                "reason" : "el-api has been replaced with javax.el-api",
+                "author" : "Rob Spieldenner",
+                "date" : "2016-06-09T17:12:34.000Z"
+            }
+    ],
+    "align": [],
+    "substitute": [],
+    "deny": [],
+    "reject": []
+}
