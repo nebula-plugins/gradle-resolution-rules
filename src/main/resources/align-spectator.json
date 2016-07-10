@@ -1,0 +1,16 @@
+{
+    "align": [
+        {
+            "group": "com\\.netflix\\.spectator",
+            "excludes": ["spectator-reg-metrics2", "spectator-reg-tdigest"],
+            "reason": "Align Spectator libraries.",
+            "author": "Brian Harrington <brharrington@netflix.com>",
+            "date": "2016-07-09"
+        }
+    ],
+    "replace": [],
+    "substitute": [],
+    "deny": [],
+    "reject": [],
+    "exclude": []
+}
