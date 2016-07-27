@@ -1,0 +1,162 @@
+{
+    "replace": [
+            {
+                "module": "com.netflix.rxjava:language-adaptors",
+                "with": "io.reactivex:language-adaptors",
+                "reason": "The rxjava group id changed",
+                "author": "Netflix Runtime Platform",
+                "date": "2016-04-27"
+            },
+            {
+                "module": "com.netflix.rxjava:rxjava-android",
+                "with": "io.reactivex:rxjava-android",
+                "reason": "The rxjava group id changed",
+                "author": "Netflix Runtime Platform",
+                "date": "2016-04-27"
+            },
+            {
+                "module": "com.netflix.rxjava:rxjava-android-samples-build-wrapper",
+                "with": "io.reactivex:rxjava-android-samples-build-wrapper",
+                "reason": "The rxjava group id changed",
+                "author": "Netflix Runtime Platform",
+                "date": "2016-04-27"
+            },
+            {
+                "module": "com.netflix.rxjava:rxjava-apache-http",
+                "with": "io.reactivex:rxjava-apache-http",
+                "reason": "The rxjava group id changed",
+                "author": "Netflix Runtime Platform",
+                "date": "2016-04-27"
+            },
+            {
+                "module": "com.netflix.rxjava:rxjava-async-util",
+                "with": "io.reactivex:rxjava-async-util",
+                "reason": "The rxjava group id changed",
+                "author": "Netflix Runtime Platform",
+                "date": "2016-04-27"
+            },
+            {
+                "module": "com.netflix.rxjava:rxjava-clojure",
+                "with": "io.reactivex:rxjava-clojure",
+                "reason": "The rxjava group id changed",
+                "author": "Netflix Runtime Platform",
+                "date": "2016-04-27"
+            },
+            {
+                "module": "com.netflix.rxjava:rxjava-computation-expressions",
+                "with": "io.reactivex:rxjava-computation-expressions",
+                "reason": "The rxjava group id changed",
+                "author": "Netflix Runtime Platform",
+                "date": "2016-04-27"
+            },
+            {
+                "module": "com.netflix.rxjava:rxjava-contrib",
+                "with": "io.reactivex:rxjava-contrib",
+                "reason": "The rxjava group id changed",
+                "author": "Netflix Runtime Platform",
+                "date": "2016-04-27"
+            },
+            {
+                "module": "com.netflix.rxjava:rxjava-core",
+                "with": "io.reactivex:rxjava-core",
+                "reason": "The rxjava group id changed",
+                "author": "Netflix Runtime Platform",
+                "date": "2016-04-27"
+            },
+            {
+                "module": "com.netflix.rxjava:rxjava-debug",
+                "with": "io.reactivex:rxjava-debug",
+                "reason": "The rxjava group id changed",
+                "author": "Netflix Runtime Platform",
+                "date": "2016-04-27"
+            },
+            {
+                "module": "com.netflix.rxjava:rxjava-examples",
+                "with": "io.reactivex:rxjava-examples",
+                "reason": "The rxjava group id changed",
+                "author": "Netflix Runtime Platform",
+                "date": "2016-04-27"
+            },
+            {
+                "module": "com.netflix.rxjava:rxjava-groovy",
+                "with": "io.reactivex:rxjava-groovy",
+                "reason": "The rxjava group id changed",
+                "author": "Netflix Runtime Platform",
+                "date": "2016-04-27"
+            },
+            {
+                "module": "com.netflix.rxjava:rxjava-ios",
+                "with": "io.reactivex:rxjava-ios",
+                "reason": "The rxjava group id changed",
+                "author": "Netflix Runtime Platform",
+                "date": "2016-04-27"
+            },
+            {
+                "module": "com.netflix.rxjava:rxjava-joins",
+                "with": "io.reactivex:rxjava-joins",
+                "reason": "The rxjava group id changed",
+                "author": "Netflix Runtime Platform",
+                "date": "2016-04-27"
+            },
+            {
+                "module": "com.netflix.rxjava:rxjava-jruby",
+                "with": "io.reactivex:rxjava-jruby",
+                "reason": "The rxjava group id changed",
+                "author": "Netflix Runtime Platform",
+                "date": "2016-04-27"
+            },
+            {
+                "module": "com.netflix.rxjava:rxjava-kotlin",
+                "with": "io.reactivex:rxjava-kotlin",
+                "reason": "The rxjava group id changed",
+                "author": "Netflix Runtime Platform",
+                "date": "2016-04-27"
+            },
+            {
+                "module": "com.netflix.rxjava:rxjava-math",
+                "with": "io.reactivex:rxjava-math",
+                "reason": "The rxjava group id changed",
+                "author": "Netflix Runtime Platform",
+                "date": "2016-04-27"
+            },
+            {
+                "module": "com.netflix.rxjava:rxjava-quasar",
+                "with": "io.reactivex:rxjava-quasar",
+                "reason": "The rxjava group id changed",
+                "author": "Netflix Runtime Platform",
+                "date": "2016-04-27"
+            },
+            {
+                "module": "com.netflix.rxjava:rxjava-scala",
+                "with": "io.reactivex:rxjava-scala",
+                "reason": "The rxjava group id changed",
+                "author": "Netflix Runtime Platform",
+                "date": "2016-04-27"
+            },
+            {
+                "module": "com.netflix.rxjava:rxjava-scalaz",
+                "with": "io.reactivex:rxjava-scalaz",
+                "reason": "The rxjava group id changed",
+                "author": "Netflix Runtime Platform",
+                "date": "2016-04-27"
+            },
+            {
+                "module": "com.netflix.rxjava:rxjava-string",
+                "with": "io.reactivex:rxjava-string",
+                "reason": "The rxjava group id changed",
+                "author": "Netflix Runtime Platform",
+                "date": "2016-04-27"
+            },
+            {
+                "module": "com.netflix.rxjava:rxjava-swing",
+                "with": "io.reactivex:rxjava-swing",
+                "reason": "The rxjava group id changed",
+                "author": "Netflix Runtime Platform",
+                "date": "2016-04-27"
+            }
+    ],
+    "align": [],
+    "substitute": [],
+    "deny": [],
+    "reject": []
+}
