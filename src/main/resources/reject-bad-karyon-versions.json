@@ -1,0 +1,68 @@
+{
+    "align": [],
+    "replace": [],
+    "align": [],
+    "deny": [],
+    "reject": [
+        {
+            "module": "com.netflix.karyon:karyon-admin:2.0.02",
+            "reason": "Typed incorrect version and accidentally released",
+            "author": "Rob Spieldenner <rob.spieldenner@gmail.com>",
+            "date": "2016-08-09T21:57:28.394Z"
+        },
+        {
+            "module": "com.netflix.karyon:karyon-admin-web:2.0.02",
+            "reason": "Typed incorrect version and accidentally released",
+            "author": "Rob Spieldenner <rob.spieldenner@gmail.com>",
+            "date": "2016-08-09T21:57:28.394Z"
+        },
+        {
+            "module": "com.netflix.karyon:karyon-core:2.0.02",
+            "reason": "Typed incorrect version and accidentally released",
+            "author": "Rob Spieldenner <rob.spieldenner@gmail.com>",
+            "date": "2016-08-09T21:57:28.394Z"
+        },
+        {
+            "module": "com.netflix.karyon:karyon-eureka:2.0.02",
+            "reason": "Typed incorrect version and accidentally released",
+            "author": "Rob Spieldenner <rob.spieldenner@gmail.com>",
+            "date": "2016-08-09T21:57:28.394Z"
+        },
+        {
+            "module": "com.netflix.karyon:karyon-extensions:2.0.02",
+            "reason": "Typed incorrect version and accidentally released",
+            "author": "Rob Spieldenner <rob.spieldenner@gmail.com>",
+            "date": "2016-08-09T21:57:28.394Z"
+        },
+        {
+            "module": "com.netflix.karyon:karyon-extensions-testsuite:2.0.02",
+            "reason": "Typed incorrect version and accidentally released",
+            "author": "Rob Spieldenner <rob.spieldenner@gmail.com>",
+            "date": "2016-08-09T21:57:28.394Z"
+        },
+        {
+            "module": "com.netflix.karyon:karyon-netty-http:2.0.02",
+            "reason": "Typed incorrect version and accidentally released",
+            "author": "Rob Spieldenner <rob.spieldenner@gmail.com>",
+            "date": "2016-08-09T21:57:28.394Z"
+        },
+        {
+            "module": "com.netflix.karyon:karyon-netty-jersey-blocking:2.0.02",
+            "reason": "Typed incorrect version and accidentally released",
+            "author": "Rob Spieldenner <rob.spieldenner@gmail.com>",
+            "date": "2016-08-09T21:57:28.394Z"
+        },
+        {
+            "module": "com.netflix.karyon:karyon-servlet:2.0.02",
+            "reason": "Typed incorrect version and accidentally released",
+            "author": "Rob Spieldenner <rob.spieldenner@gmail.com>",
+            "date": "2016-08-09T21:57:28.394Z"
+        },
+        {
+            "module": "com.netflix.karyon:karyon-spi:2.0.02",
+            "reason": "Typed incorrect version and accidentally released",
+            "author": "Rob Spieldenner <rob.spieldenner@gmail.com>",
+            "date": "2016-08-09T21:57:28.394Z"
+        }
+    ]
+}
