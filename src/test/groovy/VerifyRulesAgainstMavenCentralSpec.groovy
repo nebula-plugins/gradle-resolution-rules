@@ -110,7 +110,7 @@ class VerifyRulesAgainstMavenCentralSpec extends Specification {
                         }
                     }
                     [deny, exclude, reject].flatten().each { rule ->
-                        if (rule.module == module) {
+                        if (rule.module.contains(module)) {
                             artifactsByRule.put(rule, info)
                         }
                     }
