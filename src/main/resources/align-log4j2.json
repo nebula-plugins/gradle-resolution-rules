@@ -1,0 +1,16 @@
+{
+    "align": [
+            {
+                "name": "align-log4j2",
+                "group": "org.apache.logging.log4j",
+                "excludes": ["slf4j-impl", "log4j12-api"],
+                "reason": "Align Log4J 2 libraries",
+                "author": "Danny Thomas <dannyt@netflix.com>",
+                "date": "2016-09-29"
+            }
+    ],
+    "replace": [],
+    "substitute": [],
+    "deny": [],
+    "reject": []
+}
