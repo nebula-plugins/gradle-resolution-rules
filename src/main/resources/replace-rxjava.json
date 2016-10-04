@@ -58,7 +58,7 @@
             },
             {
                 "module": "com.netflix.rxjava:rxjava-core",
-                "with": "io.reactivex:rxjava-core",
+                "with": "io.reactivex:rxjava",
                 "reason": "The rxjava group id changed",
                 "author": "Netflix Runtime Platform",
                 "date": "2016-04-27"
