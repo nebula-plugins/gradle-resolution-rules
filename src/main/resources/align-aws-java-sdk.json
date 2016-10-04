@@ -3,7 +3,7 @@
             {
                 "name": "align-aws-java-sdk",
                 "group": "com.amazonaws",
-                "includes": ["aws-java-sdk.*"],
+                "includes": ["aws-java-sdk", "aws-java-sdk-.*"],
                 "excludes": ["aws-java-sdk-(handwritten-samples|sample-extractor|samples-pom|generated-samples|samples|archetype|swf-libraries)"],
                 "reason": "Align AWS Java SDK libraries",
                 "author": "Danny Thomas <dannyt@netflix.com>",
