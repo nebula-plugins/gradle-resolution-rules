@@ -73,6 +73,8 @@ class VerifyRulesAgainstMavenCentralSpec extends Specification {
         return context
     }
 
+    static Set<String> SUPPORTED_EXTENSIONS = ["pom", "jar", "war"]
+
     static Multimap<Rule, ArtifactInfo> artifactsByRule(IndexingContext context, RuleSet ruleSet) {
         def artifactsByRule = ArrayListMultimap.create()
         def searcher = context.acquireIndexSearcher()
@@ -100,7 +102,7 @@ class VerifyRulesAgainstMavenCentralSpec extends Specification {
             def classifier = uinfo[3]
             def extension = uinfo[4]
 
-            if (classifier == "NA" && extension == "jar") {
+            if (SUPPORTED_EXTENSIONS.contains(extension) && classifier == "NA") {
                 def info = new ArtifactInfo("central", groupId, artifactId, version, classifier, extension)
                 ruleSet.with {
                     String module = "$groupId:$artifactId"
