@@ -6,6 +6,13 @@
                 "reason" : "The asm group id changed for 4.0 and later",
                 "author" : "Danny Thomas",
                 "date" : "2016-04-26T00:00:00.000Z"
+            },
+            {
+                "module" : "asm:asm-all",
+                "with" : "org.ow2.asm:asm-all",
+                "reason" : "The asm group id changed for 4.0 and later",
+                "author" : "Steve Hill",
+                "date" : "2016-10-12T00:00:00.000Z"
             }
     ],
     "align": [],
