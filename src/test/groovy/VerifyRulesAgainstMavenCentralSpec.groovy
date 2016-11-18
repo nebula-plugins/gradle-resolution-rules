@@ -169,9 +169,13 @@ class VerifyRulesAgainstMavenCentralSpec extends Specification {
             matchedVersions.entrySet().each {
                 def artifact = it.key
                 def versions = it.value
-                if (versions.isEmpty()) errorStrings.add("Align rule $rule is invalid: $artifact has no versions between $lowestCommonVersion and $highestVersion")
-                if (versions.last() != highestVersion) errorStrings.add("Align rule $rule is invalid: $artifact does not have a version $highestVersion")
-                if (versions != expectedVersions) errorStrings.add("Align rule $rule is invalid: $artifact has versions $versions but expected $expectedVersions")
+                if (versions.isEmpty()) {
+                    errorStrings.add("Align rule $rule is invalid: $artifact has no versions between $lowestCommonVersion and $highestVersion")
+                } else if (versions.last() != highestVersion) {
+                    errorStrings.add("Align rule $rule is invalid: $artifact does not have a version $highestVersion")
+                } else if (versions != expectedVersions) {
+                    errorStrings.add("Align rule $rule is invalid: $artifact has versions $versions but expected $expectedVersions")
+                }
             }
 
             assert errorStrings.size() == 0 : errorStrings.join('\n')

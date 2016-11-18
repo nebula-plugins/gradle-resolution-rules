@@ -1,16 +1,8 @@
 {
     "align": [
             {
-                "group": "com\\.fasterxml\\.jackson\\.(core|dataformat|datatype|jr|module)",
-                "excludes": ["jackson-datatype-jdk7", "jackson-datatype-guava", "jackson-datatype-hibernate", "jackson-dataformat-smile", "jackson-dataformat-csv", "jackson-dataformat-yaml", "jackson-dataformat-xml", "jackson-module-afterburner", "jackson-module-jaxb-annotations", "jackson-module-mrbean", "jackson-module-scala_2.12.0-RC1", "jackson-module-scala_2.12.0-M5", "jackson-module-scala_2.12.0-M4", "jackson-module-scala_2.11", "jackson-module-scala_2.10", "jackson-module-scala_2.9.3", "jackson-module-scala_2.9.2", "jackson-module-scala_2.9.1", "jackson-module-swagger", "jackson-module-scala"],
-                "reason": "Align all Jackson libraries",
-                "match": "EXCLUDE_SUFFIXES",
-                "author": "Danny Thomas <dannyt@netflix.com>",
-                "date": "2016-05-19"
-            },
-            {
-                "group": "com\\.fasterxml\\.jackson\\.jaxrs",
-                "excludes": [],
+                "group": "com\\.fasterxml\\.jackson\\.(core|dataformat|datatype|jaxrs|jr|module)",
+                "excludes": ["jackson-dataformat-smile", "jackson-dataformat-csv", "jackson-module-mrbean", "jackson-annotations", "jackson-module-jaxb-annotations", "jackson-dataformat-yaml", "jackson-datatype-guava", "jackson-module-parameter-names", "jackson-datatype-jdk7", "jackson-jr-parent", "jackson-jr-objects", "jackson-jr-all", "jackson-datatype-jsr353", "jackson-datatype-jsr310", "jackson-datatype-jdk8", "jackson-datatype-hppc", "jackson-datatype-hibernate5", "jackson-datatype-hibernate-parent", "jackson-dataformat-protobuf", "jackson-dataformat-cbor", "jackson-dataformat-avro", "jackson-jr-retrofit2", "jackson-datatype-pcollections", "jackson-jr-stree", "jackson-modules-base", "jackson-datatypes-collections", "jackson-datatype-jaxrs", "jackson-dataformats-binary", "jackson-dataformat-properties", "jackson-module-scala_2.12", "jackson-datatype-json-org", "jackson-datatype-joda", "jackson-datatype-hibernate4", "jackson-datatype-hibernate3", "jackson-module-paranamer", "jackson-module-osgi", "jackson-module-kotlin", "jackson-module-jsonSchema", "jackson-module-guice", "jackson-module-scala_2.12.0-RC1", "jackson-module-scala_2.12.0-M5", "jackson-module-scala_2.12.0-M4", "jackson-module-scala_2.11", "jackson-module-scala_2.10", "jackson-module-scala_2.9.3", "jackson-module-scala_2.9.2", "jackson-module-scala_2.9.1", "jackson-module-swagger", "jackson-module-scala", "jackson-datatype-hibernate", "jackson-jaxrs-xml-provider", "jackson-jaxrs-json-provider", "jackson-jaxrs-yaml-provider", "jackson-jaxrs-smile-provider", "jackson-jaxrs-providers", "jackson-jaxrs-cbor-provider", "jackson-jaxrs-base", "jackson-databind", "jackson-module-afterburner", "jackson-dataformat-xml"],
                 "reason": "Align all Jackson libraries",
                 "match": "EXCLUDE_SUFFIXES",
                 "author": "Danny Thomas <dannyt@netflix.com>",
