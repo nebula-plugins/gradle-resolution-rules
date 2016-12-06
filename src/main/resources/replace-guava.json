@@ -1,0 +1,15 @@
+{
+    "replace" : [
+            {
+                "module" : "com.google.guava:guava-jdk5",
+                "with" : "com.google.guava:guava",
+                "reason" : "Guava JDK5 can be safely replaced by Guava",
+                "author" : "Steve Hill",
+                "date" : "2016-12-05T00:00:00.000Z"
+            }
+    ],
+    "align": [],
+    "substitute": [],
+    "deny": [],
+    "reject": []
+}
