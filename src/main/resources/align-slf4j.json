@@ -3,7 +3,7 @@
             {
                 "name": "align-slf4j",
                 "group": "org.slf4j",
-                "excludes": ["slf4j-(converter|archetype|skin|log4j13)", "jcl104-over-slf4j", "nlog4j"],
+                "excludes": ["slf4j-(converter|archetype|skin|log4j13|test)", "jcl104-over-slf4j", "nlog4j"],
                 "reason": "Align all SLF4J libraries",
                 "author": "Danny Thomas <dannyt@netflix.com>",
                 "date": "2016-04-28T22:31:14.321Z"
