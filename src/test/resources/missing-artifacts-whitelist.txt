@@ -15,3 +15,6 @@ org.slf4j:slf4j-android:1.7.2
 org.slf4j:slf4j-android:1.7.3
 org.slf4j:slf4j-android:1.7.4
 org.slf4j:slf4j-android:1.7.5
+org.bouncycastle:bctsp-jdk14:1.46
+org.bouncycastle:bctsp-jdk15:1.46
+org.bouncycastle:bctsp-jdk16:1.46

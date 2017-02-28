@@ -104,37 +104,47 @@ class VerifyRulesAgainstMavenCentralSpec extends Specification {
 
             if (SUPPORTED_EXTENSIONS.contains(extension) && classifier == "NA") {
                 def info = new ArtifactInfo("central", groupId, artifactId, version, classifier, extension)
-                ruleSet.with {
-                    String module = "$groupId:$artifactId"
-                    align.each { rule ->
-                        if (rule.ruleMatches(groupId, artifactId)) {
-                            artifactsByRule.put(rule, info)
-                        }
-                    }
-                    [deny, exclude, reject].flatten().each { rule ->
-                        if (rule.module.contains(module)) {
-                            artifactsByRule.put(rule, info)
-                        }
-                    }
-                    [substitute, replace].flatten().each { rule ->
-                        if (rule.module == module || rule.with == module) {
-                            artifactsByRule.put(rule, info)
-                        }
-                    }
-                }
+                artifactsByRule.putAll(matchedRules(info, ruleSet))
             }
         }
 
         def classLoader = VerifyRulesAgainstMavenCentralSpec.classLoader
-        def missingArtifacts = classLoader.getResourceAsStream("missing-artifacts-whitelist.txt").readLines().collect { new DefaultArtifact(it) }
+        def missingArtifacts = classLoader.getResourceAsStream("missing-artifacts-whitelist.txt").readLines().collect {
+            new DefaultArtifact(it)
+        }
         missingArtifacts.each { missingArtifact ->
-            ruleSet.align.each { rule ->
-                if (rule.ruleMatches(missingArtifact.groupId, missingArtifact.artifactId)) {
-                    artifactsByRule.put(rule, new ArtifactInfo("missing", missingArtifact.groupId, missingArtifact.artifactId, missingArtifact.version, null, null))
-                }
-            }
+            def info = new ArtifactInfo("missing", missingArtifact.groupId, missingArtifact.artifactId, missingArtifact.version, null, null)
+            artifactsByRule.putAll(matchedRules(info, ruleSet))
         }
 
+        return artifactsByRule
+    }
+
+    static Multimap<Rule, ArtifactInfo> matchedRules(ArtifactInfo info, RuleSet ruleSet)  {
+        def artifactsByRule = ArrayListMultimap.create()
+        def groupId = info.groupId
+        def artifactId = info.artifactId
+        String module = "$info.groupId:$info.artifactId"
+
+        def alignRules = ruleSet.align
+        def moduleRules = [ruleSet.deny, ruleSet.exclude, ruleSet.reject].flatten()
+        def moduleWithRules = [ruleSet.substitute, ruleSet.replace].flatten()
+
+        alignRules.each { rule ->
+            if (rule.ruleMatches(groupId, artifactId)) {
+                artifactsByRule.put(rule, info)
+            }
+        }
+        moduleRules.each { rule ->
+            if (rule.module.contains(module)) {
+                artifactsByRule.put(rule, info)
+            }
+        }
+        moduleWithRules.each { rule ->
+            if (rule.module == module || rule.with == module) {
+                artifactsByRule.put(rule, info)
+            }
+        }
         return artifactsByRule
     }
 
@@ -178,7 +188,7 @@ class VerifyRulesAgainstMavenCentralSpec extends Specification {
                 }
             }
 
-            assert errorStrings.size() == 0 : errorStrings.join('\n')
+            assert errorStrings.size() == 0: errorStrings.join('\n')
         }
     }
 
@@ -186,7 +196,7 @@ class VerifyRulesAgainstMavenCentralSpec extends Specification {
         expect:
         ruleSet.with {
             [deny, exclude, reject, replace, substitute].flatten().each { rule ->
-                assert artifactsByRule.keySet().contains(rule) : "No artifacts found for rule $rule"
+                assert artifactsByRule.keySet().contains(rule): "No artifacts found for rule $rule"
             }
         }
     }

@@ -1,0 +1,36 @@
+{
+    "replace": [
+        {
+            "module": "org.bouncycastle:bcmail-jdk15+",
+            "with": "org.bouncycastle:bcmail-jdk15on",
+            "reason": "Ensure that bouncycastle artifacts conflict resolve",
+            "author": "Danny Thomas",
+            "date": "2017-02-27"
+        },
+        {
+            "module": "org.bouncycastle:bcpg-jdk15+",
+            "with": "org.bouncycastle:bcpg-jdk15on",
+            "reason": "Ensure that bouncycastle artifacts conflict resolve",
+            "author": "Danny Thomas",
+            "date": "2017-02-27"
+        },
+        {
+            "module": "org.bouncycastle:bcprov-jdk15+",
+            "with": "org.bouncycastle:bcprov-jdk15on",
+            "reason": "Ensure that bouncycastle artifacts conflict resolve",
+            "author": "Danny Thomas",
+            "date": "2017-02-27"
+        },
+        {
+            "module": "org.bouncycastle:bctsp-jdk15+",
+            "with": "org.bouncycastle:bctsp-jdk15on",
+            "reason": "Ensure that bouncycastle artifacts conflict resolve",
+            "author": "Danny Thomas",
+            "date": "2017-02-27"
+        }
+    ],
+    "substitute": [],
+    "align": [],
+    "deny": [],
+    "reject": []
+}

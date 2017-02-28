@@ -1,0 +1,29 @@
+{
+    "replace": [
+        {
+            "module": "org.bouncycastle:bcprov-jdk14",
+            "with": "org.bouncycastle:bcprov-jdk14-debug",
+            "reason": "Ensure that bouncycastle artifacts conflict resolve",
+            "author": "Danny Thomas",
+            "date": "2017-02-27"
+        },
+        {
+            "module": "org.bouncycastle:bcprov-jdk15on",
+            "with": "org.bouncycastle:bcprov-jdk15on-debug",
+            "reason": "Ensure that bouncycastle artifacts conflict resolve",
+            "author": "Danny Thomas",
+            "date": "2017-02-27"
+        },
+        {
+            "module": "org.bouncycastle:bcprov-ext-jdk15on",
+            "with": "org.bouncycastle:bcprov-ext-debug-jdk15on",
+            "reason": "Ensure that bouncycastle artifacts conflict resolve",
+            "author": "Danny Thomas",
+            "date": "2017-02-27"
+        }
+    ],
+    "substitute": [],
+    "align": [],
+    "deny": [],
+    "reject": []
+}

@@ -1,0 +1,22 @@
+{
+    "replace": [
+        {
+            "module": "org.bouncycastle:bcpg-jdk12",
+            "with": "org.bouncycastle:bcpg-jdk14",
+            "reason": "Ensure that bouncycastle artifacts conflict resolve",
+            "author": "Danny Thomas",
+            "date": "2017-02-27"
+        },
+        {
+            "module": "org.bouncycastle:bcprov-jdk12",
+            "with": "org.bouncycastle:bcprov-jdk14",
+            "reason": "Ensure that bouncycastle artifacts conflict resolve",
+            "author": "Danny Thomas",
+            "date": "2017-02-27"
+        }
+    ],
+    "substitute": [],
+    "align": [],
+    "deny": [],
+    "reject": []
+}

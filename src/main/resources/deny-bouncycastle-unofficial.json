@@ -1,0 +1,80 @@
+{
+    "deny": [
+        {
+            "module": "bouncycastle:bcmail-jdk14",
+            "reason": "The bouncycastle group is not official. Configure an org.bouncycastle dependency - http://bouncy-castle.1462172.n4.nabble.com/inconsistent-pom-file-relocation-td4657368.html",
+            "author": "Danny Thomas",
+            "date": "2017-02-27"
+        },
+        {
+            "module": "bouncycastle:bcmail-jdk15",
+            "reason": "The bouncycastle group is not official. Configure an org.bouncycastle dependency - http://bouncy-castle.1462172.n4.nabble.com/inconsistent-pom-file-relocation-td4657368.html",
+            "author": "Danny Thomas",
+            "date": "2017-02-27"
+        },
+        {
+            "module": "bouncycastle:bcmail-jdk16",
+            "reason": "The bouncycastle group is not official. Configure an org.bouncycastle dependency - http://bouncy-castle.1462172.n4.nabble.com/inconsistent-pom-file-relocation-td4657368.html",
+            "author": "Danny Thomas",
+            "date": "2017-02-27"
+        },
+        {
+            "module": "bouncycastle:bcpg-jdk13",
+            "reason": "The bouncycastle group is not official. Configure an org.bouncycastle dependency - http://bouncy-castle.1462172.n4.nabble.com/inconsistent-pom-file-relocation-td4657368.html",
+            "author": "Danny Thomas",
+            "date": "2017-02-27"
+        },
+        {
+            "module": "bouncycastle:bcpg-jdk15",
+            "reason": "The bouncycastle group is not official. Configure an org.bouncycastle dependency - http://bouncy-castle.1462172.n4.nabble.com/inconsistent-pom-file-relocation-td4657368.html",
+            "author": "Danny Thomas",
+            "date": "2017-02-27"
+        },
+        {
+            "module": "bouncycastle:bcprov-jdk12",
+            "reason": "The bouncycastle group is not official. Configure an org.bouncycastle dependency - http://bouncy-castle.1462172.n4.nabble.com/inconsistent-pom-file-relocation-td4657368.html",
+            "author": "Danny Thomas",
+            "date": "2017-02-27"
+        },
+        {
+            "module": "bouncycastle:bcprov-jdk13",
+            "reason": "The bouncycastle group is not official. Configure an org.bouncycastle dependency - http://bouncy-castle.1462172.n4.nabble.com/inconsistent-pom-file-relocation-td4657368.html",
+            "author": "Danny Thomas",
+            "date": "2017-02-27"
+        },
+        {
+            "module": "bouncycastle:bcprov-jdk14",
+            "reason": "The bouncycastle group is not official. Configure an org.bouncycastle dependency - http://bouncy-castle.1462172.n4.nabble.com/inconsistent-pom-file-relocation-td4657368.html",
+            "author": "Danny Thomas",
+            "date": "2017-02-27"
+        },
+        {
+            "module": "bouncycastle:bcprov-jdk15",
+            "reason": "The bouncycastle group is not official. Configure an org.bouncycastle dependency - http://bouncy-castle.1462172.n4.nabble.com/inconsistent-pom-file-relocation-td4657368.html",
+            "author": "Danny Thomas",
+            "date": "2017-02-27"
+        },
+        {
+            "module": "bouncycastle:bcprov-jdk16",
+            "reason": "The bouncycastle group is not official. Configure an org.bouncycastle dependency - http://bouncy-castle.1462172.n4.nabble.com/inconsistent-pom-file-relocation-td4657368.html",
+            "author": "Danny Thomas",
+            "date": "2017-02-27"
+        },
+        {
+            "module": "bouncycastle:bctsp-jdk14",
+            "reason": "The bouncycastle group is not official. Configure an org.bouncycastle dependency - http://bouncy-castle.1462172.n4.nabble.com/inconsistent-pom-file-relocation-td4657368.html",
+            "author": "Danny Thomas",
+            "date": "2017-02-27"
+        },
+        {
+            "module": "bouncycastle:bouncycastle-jce-jdk13",
+            "reason": "The bouncycastle group is not official. Configure an org.bouncycastle dependency - http://bouncy-castle.1462172.n4.nabble.com/inconsistent-pom-file-relocation-td4657368.html",
+            "author": "Danny Thomas",
+            "date": "2017-02-27"
+        }
+    ],
+    "align": [],
+    "replace": [],
+    "reject": [],
+    "substitute": []
+}
