@@ -88,9 +88,6 @@ class VerifyRulesAgainstMavenCentralSpec extends Specification {
             }
             def doc = reader.document(i)
             if (doc.get(ArtifactInfo.UINFO) == null) {
-                if (doc.get(ArtifactInfo.DELETED) == null) {
-                    println "Non-artifact document found at index $i. Document $doc"
-                }
                 // Otherwise, the document has been marked as deleted for incremental updates
                 continue
             }
