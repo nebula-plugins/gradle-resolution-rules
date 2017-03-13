@@ -13,6 +13,55 @@
                 "reason" : "The asm group id changed for 4.0 and later",
                 "author" : "Steve Hill",
                 "date" : "2016-10-12T00:00:00.000Z"
+            },
+            {
+                "module" : "asm:asm-analysis",
+                "with" : "org.ow2.asm:asm-analysis",
+                "reason" : "The asm group id changed for 4.0 and later",
+                "author" : "Danny Thomas",
+                "date" : "2017-03-13"
+            },
+            {
+                "module" : "asm:asm-commons",
+                "with" : "org.ow2.asm:asm-commons",
+                "reason" : "The asm group id changed for 4.0 and later",
+                "author" : "Danny Thomas",
+                "date" : "2017-03-13"
+            },
+            {
+                "module" : "asm:asm-debug-all",
+                "with" : "org.ow2.asm:asm-debug-all",
+                "reason" : "The asm group id changed for 4.0 and later",
+                "author" : "Danny Thomas",
+                "date" : "2017-03-13"
+            },
+            {
+                "module" : "asm:asm-parent",
+                "with" : "org.ow2.asm:asm-parent",
+                "reason" : "The asm group id changed for 4.0 and later",
+                "author" : "Danny Thomas",
+                "date" : "2017-03-13"
+            },
+            {
+                "module" : "asm:asm-tree",
+                "with" : "org.ow2.asm:asm-tree",
+                "reason" : "The asm group id changed for 4.0 and later",
+                "author" : "Danny Thomas",
+                "date" : "2017-03-13"
+            },
+            {
+                "module" : "asm:asm-util",
+                "with" : "org.ow2.asm:asm-util",
+                "reason" : "The asm group id changed for 4.0 and later",
+                "author" : "Danny Thomas",
+                "date" : "2017-03-13"
+            },
+            {
+                "module" : "asm:asm-xml",
+                "with" : "org.ow2.asm:asm-xml",
+                "reason" : "The asm group id changed for 4.0 and later",
+                "author" : "Danny Thomas",
+                "date" : "2017-03-13"
             }
     ],
     "align": [],
