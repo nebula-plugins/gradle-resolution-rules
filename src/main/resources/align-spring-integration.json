@@ -2,7 +2,7 @@
     "align": [
         {
             "group": "org\\.springframework\\.integration",
-            "excludes": ["spring-integration-(smb|java-dsl|kafka|tuple|cassandra|flow|smpp|splunk|httpinvoker|parent|adapter|samples)"],
+            "excludes": ["spring-integration-(smb|java-dsl|kafka|tuple|cassandra|flow|smpp|splunk|httpinvoker|parent|adapter|samples|aws)"],
             "reason": "Align Spring Integration",
             "author": "Danny Thomas <dannyt@netflix.com>",
             "date": "2016-05-16"
