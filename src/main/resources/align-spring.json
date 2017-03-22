@@ -4,7 +4,7 @@
             "group": "org\\.springframework",
             "includes": ["spring-(tx|aop|instrument|context-support|beans|jms|test|core|oxm|web|context|expression|aspects|websocket|framework-bom|webmvc|webmvc-portlet|jdbc|orm|instrument-tomcat|messaging)"],
             "match": "[2-9]\\.[0-9]\\.[0-9].RELEASE",
-            "reason": "Align Spring libraries",
+            "reason": "Align Spring",
             "author": "Danny Thomas <dannyt@netflix.com>",
             "date": "2016-05-16"
         }

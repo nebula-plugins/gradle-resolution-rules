@@ -1,0 +1,16 @@
+{
+    "align": [
+        {
+            "group": "org\\.springframework\\.integration",
+            "excludes": ["spring-integration-(smb|java-dsl|kafka|tuple|cassandra|flow|smpp|splunk|httpinvoker|parent|adapter|samples)"],
+            "reason": "Align Spring Integration",
+            "author": "Danny Thomas <dannyt@netflix.com>",
+            "date": "2016-05-16"
+        }
+    ],
+    "replace": [],
+    "substitute": [],
+    "deny": [],
+    "reject": [],
+    "exclude": []
+}
