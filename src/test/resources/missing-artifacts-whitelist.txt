@@ -18,3 +18,6 @@ org.slf4j:slf4j-android:1.7.5
 org.bouncycastle:bctsp-jdk14:1.46
 org.bouncycastle:bctsp-jdk15:1.46
 org.bouncycastle:bctsp-jdk16:1.46
+com.google.protobuf:protobuf-java:3.1.0-build2
+com.google.protobuf:protobuf-java-util:3.1.0-build2
+com.google.protobuf:protobuf-parent:3.1.0-build2
