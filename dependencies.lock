@@ -5,8 +5,8 @@
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.0.0",
-            "requested": "6.0.0"
+            "locked": "6.0.1",
+            "requested": "6.0.1"
         },
         "org.apache.lucene:lucene-analyzers-common": {
             "locked": "4.8.1",
@@ -47,8 +47,8 @@
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.0.0",
-            "requested": "6.0.0"
+            "locked": "6.0.1",
+            "requested": "6.0.1"
         },
         "org.apache.lucene:lucene-analyzers-common": {
             "locked": "4.8.1",
@@ -89,8 +89,8 @@
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.0.0",
-            "requested": "6.0.0"
+            "locked": "6.0.1",
+            "requested": "6.0.1"
         },
         "org.apache.lucene:lucene-analyzers-common": {
             "locked": "4.8.1",
@@ -131,8 +131,8 @@
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.0.0",
-            "requested": "6.0.0"
+            "locked": "6.0.1",
+            "requested": "6.0.1"
         },
         "org.apache.lucene:lucene-analyzers-common": {
             "locked": "4.8.1",
@@ -183,8 +183,8 @@
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.0.0",
-            "requested": "6.0.0"
+            "locked": "6.0.1",
+            "requested": "6.0.1"
         },
         "org.apache.lucene:lucene-analyzers-common": {
             "locked": "4.8.1",
@@ -225,8 +225,8 @@
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.0.0",
-            "requested": "6.0.0"
+            "locked": "6.0.1",
+            "requested": "6.0.1"
         },
         "org.apache.lucene:lucene-analyzers-common": {
             "locked": "4.8.1",
@@ -267,8 +267,8 @@
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.0.0",
-            "requested": "6.0.0"
+            "locked": "6.0.1",
+            "requested": "6.0.1"
         },
         "org.apache.lucene:lucene-analyzers-common": {
             "locked": "4.8.1",
@@ -309,8 +309,8 @@
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.0.0",
-            "requested": "6.0.0"
+            "locked": "6.0.1",
+            "requested": "6.0.1"
         },
         "org.apache.lucene:lucene-analyzers-common": {
             "locked": "4.8.1",
