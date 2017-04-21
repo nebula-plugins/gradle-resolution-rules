@@ -38,8 +38,8 @@ dependencies {
     testCompile 'org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.3'
     testCompile 'org.sonatype.sisu:sisu-guice:3.2.6'
     testCompile 'org.apache.maven.wagon:wagon-http:2.10'
-    testCompile 'org.apache.lucene:lucene-core:4.8.1'
-    testCompile 'org.apache.lucene:lucene-queryparser:4.8.1'
-    testCompile 'org.apache.lucene:lucene-analyzers-common:4.8.1'
-    testCompile 'org.apache.lucene:lucene-highlighter:4.8.1'
+    testCompile 'org.apache.lucene:lucene-core:5.5.4'
+    testCompile 'org.apache.lucene:lucene-queryparser:5.5.4'
+    testCompile 'org.apache.lucene:lucene-analyzers-common:5.5.4'
+    testCompile 'org.apache.lucene:lucene-highlighter:5.5.4'
 }

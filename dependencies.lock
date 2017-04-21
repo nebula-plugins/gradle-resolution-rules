@@ -9,20 +9,20 @@
             "requested": "6.0.1"
         },
         "org.apache.lucene:lucene-analyzers-common": {
-            "locked": "4.8.1",
-            "requested": "4.8.1"
+            "locked": "5.5.4",
+            "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-core": {
-            "locked": "4.8.1",
-            "requested": "4.8.1"
+            "locked": "5.5.4",
+            "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-highlighter": {
-            "locked": "4.8.1",
-            "requested": "4.8.1"
+            "locked": "5.5.4",
+            "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-queryparser": {
-            "locked": "4.8.1",
-            "requested": "4.8.1"
+            "locked": "5.5.4",
+            "requested": "5.5.4"
         },
         "org.apache.maven.indexer:indexer-core": {
             "locked": "6.0-SNAPSHOT",
@@ -51,20 +51,20 @@
             "requested": "6.0.1"
         },
         "org.apache.lucene:lucene-analyzers-common": {
-            "locked": "4.8.1",
-            "requested": "4.8.1"
+            "locked": "5.5.4",
+            "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-core": {
-            "locked": "4.8.1",
-            "requested": "4.8.1"
+            "locked": "5.5.4",
+            "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-highlighter": {
-            "locked": "4.8.1",
-            "requested": "4.8.1"
+            "locked": "5.5.4",
+            "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-queryparser": {
-            "locked": "4.8.1",
-            "requested": "4.8.1"
+            "locked": "5.5.4",
+            "requested": "5.5.4"
         },
         "org.apache.maven.indexer:indexer-core": {
             "locked": "6.0-SNAPSHOT",
@@ -93,20 +93,20 @@
             "requested": "6.0.1"
         },
         "org.apache.lucene:lucene-analyzers-common": {
-            "locked": "4.8.1",
-            "requested": "4.8.1"
+            "locked": "5.5.4",
+            "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-core": {
-            "locked": "4.8.1",
-            "requested": "4.8.1"
+            "locked": "5.5.4",
+            "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-highlighter": {
-            "locked": "4.8.1",
-            "requested": "4.8.1"
+            "locked": "5.5.4",
+            "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-queryparser": {
-            "locked": "4.8.1",
-            "requested": "4.8.1"
+            "locked": "5.5.4",
+            "requested": "5.5.4"
         },
         "org.apache.maven.indexer:indexer-core": {
             "locked": "6.0-SNAPSHOT",
@@ -135,20 +135,20 @@
             "requested": "6.0.1"
         },
         "org.apache.lucene:lucene-analyzers-common": {
-            "locked": "4.8.1",
-            "requested": "4.8.1"
+            "locked": "5.5.4",
+            "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-core": {
-            "locked": "4.8.1",
-            "requested": "4.8.1"
+            "locked": "5.5.4",
+            "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-highlighter": {
-            "locked": "4.8.1",
-            "requested": "4.8.1"
+            "locked": "5.5.4",
+            "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-queryparser": {
-            "locked": "4.8.1",
-            "requested": "4.8.1"
+            "locked": "5.5.4",
+            "requested": "5.5.4"
         },
         "org.apache.maven.indexer:indexer-core": {
             "locked": "6.0-SNAPSHOT",
@@ -187,20 +187,20 @@
             "requested": "6.0.1"
         },
         "org.apache.lucene:lucene-analyzers-common": {
-            "locked": "4.8.1",
-            "requested": "4.8.1"
+            "locked": "5.5.4",
+            "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-core": {
-            "locked": "4.8.1",
-            "requested": "4.8.1"
+            "locked": "5.5.4",
+            "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-highlighter": {
-            "locked": "4.8.1",
-            "requested": "4.8.1"
+            "locked": "5.5.4",
+            "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-queryparser": {
-            "locked": "4.8.1",
-            "requested": "4.8.1"
+            "locked": "5.5.4",
+            "requested": "5.5.4"
         },
         "org.apache.maven.indexer:indexer-core": {
             "locked": "6.0-SNAPSHOT",
@@ -229,20 +229,20 @@
             "requested": "6.0.1"
         },
         "org.apache.lucene:lucene-analyzers-common": {
-            "locked": "4.8.1",
-            "requested": "4.8.1"
+            "locked": "5.5.4",
+            "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-core": {
-            "locked": "4.8.1",
-            "requested": "4.8.1"
+            "locked": "5.5.4",
+            "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-highlighter": {
-            "locked": "4.8.1",
-            "requested": "4.8.1"
+            "locked": "5.5.4",
+            "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-queryparser": {
-            "locked": "4.8.1",
-            "requested": "4.8.1"
+            "locked": "5.5.4",
+            "requested": "5.5.4"
         },
         "org.apache.maven.indexer:indexer-core": {
             "locked": "6.0-SNAPSHOT",
@@ -271,20 +271,20 @@
             "requested": "6.0.1"
         },
         "org.apache.lucene:lucene-analyzers-common": {
-            "locked": "4.8.1",
-            "requested": "4.8.1"
+            "locked": "5.5.4",
+            "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-core": {
-            "locked": "4.8.1",
-            "requested": "4.8.1"
+            "locked": "5.5.4",
+            "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-highlighter": {
-            "locked": "4.8.1",
-            "requested": "4.8.1"
+            "locked": "5.5.4",
+            "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-queryparser": {
-            "locked": "4.8.1",
-            "requested": "4.8.1"
+            "locked": "5.5.4",
+            "requested": "5.5.4"
         },
         "org.apache.maven.indexer:indexer-core": {
             "locked": "6.0-SNAPSHOT",
@@ -313,20 +313,20 @@
             "requested": "6.0.1"
         },
         "org.apache.lucene:lucene-analyzers-common": {
-            "locked": "4.8.1",
-            "requested": "4.8.1"
+            "locked": "5.5.4",
+            "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-core": {
-            "locked": "4.8.1",
-            "requested": "4.8.1"
+            "locked": "5.5.4",
+            "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-highlighter": {
-            "locked": "4.8.1",
-            "requested": "4.8.1"
+            "locked": "5.5.4",
+            "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-queryparser": {
-            "locked": "4.8.1",
-            "requested": "4.8.1"
+            "locked": "5.5.4",
+            "requested": "5.5.4"
         },
         "org.apache.maven.indexer:indexer-core": {
             "locked": "6.0-SNAPSHOT",
