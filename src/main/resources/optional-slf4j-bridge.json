@@ -2,14 +2,14 @@
     "substitute": [
         {
             "module": "commons-logging:commons-logging",
-            "with": "org.slf4j:jcl-over-slf4j:1.+",
+            "with": "org.slf4j:jcl-over-slf4j:1.7.+",
             "reason": "Subsitute Commons Logging with SLF4J bridge",
             "author": "Danny Thomas <dannyt@netflix.com>",
             "date": "2016-04-28T22:31:14.321Z"
         },
         {
             "module": "log4j:log4j",
-            "with": "org.slf4j:log4j-over-slf4j:1.+",
+            "with": "org.slf4j:log4j-over-slf4j:1.7.+",
             "reason": "Subsitute log4j with SLF4J bridge",
             "author": "Danny Thomas <dannyt@netflix.com>",
             "date": "2016-04-28T22:31:14.321Z"
