@@ -1,7 +1,7 @@
 {
     "integTestCompile": {
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "2.5.10",
+            "locked": "2.5.11",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
@@ -47,7 +47,7 @@
     },
     "integTestCompileClasspath": {
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "2.5.10",
+            "locked": "2.5.11",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
@@ -93,7 +93,7 @@
     },
     "integTestRuntime": {
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "2.5.10",
+            "locked": "2.5.11",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
@@ -139,7 +139,7 @@
     },
     "integTestRuntimeClasspath": {
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "2.5.10",
+            "locked": "2.5.11",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
@@ -195,7 +195,7 @@
     },
     "testCompile": {
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "2.5.10",
+            "locked": "2.5.11",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
@@ -241,7 +241,7 @@
     },
     "testCompileClasspath": {
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "2.5.10",
+            "locked": "2.5.11",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
@@ -287,7 +287,7 @@
     },
     "testRuntime": {
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "2.5.10",
+            "locked": "2.5.11",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
@@ -333,7 +333,7 @@
     },
     "testRuntimeClasspath": {
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "2.5.10",
+            "locked": "2.5.11",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
