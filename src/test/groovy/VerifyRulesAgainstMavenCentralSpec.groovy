@@ -17,6 +17,7 @@ import org.codehaus.plexus.DefaultContainerConfiguration
 import org.codehaus.plexus.DefaultPlexusContainer
 import org.codehaus.plexus.PlexusConstants
 import org.eclipse.aether.artifact.DefaultArtifact
+import org.eclipse.aether.util.version.GenericVersionScheme
 import org.eclipse.aether.version.Version
 import org.gradle.testfixtures.ProjectBuilder
 import spock.lang.Shared
@@ -117,7 +118,7 @@ class VerifyRulesAgainstMavenCentralSpec extends Specification {
         return artifactsByRule
     }
 
-    static Multimap<Rule, ArtifactInfo> matchedRules(ArtifactInfo info, RuleSet ruleSet)  {
+    static Multimap<Rule, ArtifactInfo> matchedRules(ArtifactInfo info, RuleSet ruleSet) {
         def artifactsByRule = ArrayListMultimap.create()
         def groupId = info.groupId
         def artifactId = info.artifactId
@@ -147,12 +148,18 @@ class VerifyRulesAgainstMavenCentralSpec extends Specification {
 
     def 'align rules are able to align to the latest release across all artifacts'() {
         expect:
+        def versionScheme = new GenericVersionScheme()
         def rules = artifactsByRule.keySet().findAll { it instanceof AlignRule }
-        rules.each { rule ->
+        rules.each { AlignRule rule ->
             def versionsByArtifact = artifactsByRule.get(rule)
                     .groupBy { "${it.groupId}:${it.artifactId}" }
-                    .collectEntries { key, value -> [(key): value.collect { it.artifactVersion }] }
-                    .each { it.value.sort() } as Map<String, List<Version>>;
+                    .collectEntries { key, value ->
+                [(key): value.collect {
+                    def matchedVersion = rule.matchedVersion(it.artifactVersion.toString())
+                    versionScheme.parseVersion(matchedVersion)
+                }.unique()]
+            }
+            .each { it.value.sort() } as Map<String, List<Version>>;
 
             List<Version> lowestVersions = versionsByArtifact.collect { it.value.first() }.sort()
             List<Version> highestVersions = versionsByArtifact.collect { it.value.last() }.sort()
