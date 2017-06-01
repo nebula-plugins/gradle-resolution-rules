@@ -53,10 +53,39 @@ class VerifyRulesSpec extends IntegrationSpec {
 
         then:
         assert rulesFiles.size() > 0
-        result.standardOutput.contains('com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.8.6 -> 2.9.0.pr1')
+        result.standardOutput.contains('com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.8.6 -> 2.9.0.pr1\n')
     }
 
-    def 'jackson databind 2.8.8.1'() {
+    def 'jackson databind 2.8.8.1 first'() {
+        def rulesDir = new File('src/main/resources').absoluteFile
+        def rulesFiles = rulesDir.list()
+
+        buildFile << """
+        apply plugin: 'java'
+        apply plugin: 'nebula.resolution-rules'
+
+        repositories {
+            jcenter()
+        }
+
+        dependencies {
+            compile 'com.fasterxml.jackson.core:jackson-databind:2.8.8.1'
+            compile 'com.fasterxml.jackson.core:jackson-core:2.8.2'
+
+            resolutionRules fileTree('$rulesDir').include('align-jackson.json')
+        }
+        """
+
+        when:
+        def result = runTasksSuccessfully('dependencies', '--configuration', 'compile')
+
+        then:
+        assert rulesFiles.size() > 0
+        result.standardOutput.contains('com.fasterxml.jackson.core:jackson-databind:2.8.8.1\n')
+        result.standardOutput.contains('com.fasterxml.jackson.core:jackson-core:2.8.2 -> 2.8.8\n')
+    }
+
+    def 'jackson databind 2.8.8.1 last'() {
         def rulesDir = new File('src/main/resources').absoluteFile
         def rulesFiles = rulesDir.list()
 
@@ -81,7 +110,7 @@ class VerifyRulesSpec extends IntegrationSpec {
 
         then:
         assert rulesFiles.size() > 0
-        result.standardOutput.contains('com.fasterxml.jackson.core:jackson-core:2.8.2 -> 2.8.8')
         result.standardOutput.contains('com.fasterxml.jackson.core:jackson-databind:2.8.8.1\n')
+        result.standardOutput.contains('com.fasterxml.jackson.core:jackson-core:2.8.2 -> 2.8.8\n')
     }
 }
