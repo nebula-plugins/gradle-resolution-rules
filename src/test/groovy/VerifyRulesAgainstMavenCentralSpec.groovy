@@ -20,6 +20,7 @@ import org.eclipse.aether.artifact.DefaultArtifact
 import org.eclipse.aether.util.version.GenericVersionScheme
 import org.eclipse.aether.version.Version
 import org.gradle.testfixtures.ProjectBuilder
+import spock.lang.Ignore
 import spock.lang.Shared
 import spock.lang.Specification
 
@@ -146,6 +147,7 @@ class VerifyRulesAgainstMavenCentralSpec extends Specification {
         return artifactsByRule
     }
 
+    @Ignore("Since plugin 3.0.0 we use a version range to perform alignment, which means that alignment no longer has these requirements. Keeping this around for future reference")
     def 'align rules are able to align to the latest release across all artifacts'() {
         expect:
         def versionScheme = new GenericVersionScheme()
