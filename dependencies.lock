@@ -1,12 +1,12 @@
 {
     "integTestCompile": {
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "2.5.11",
+            "locked": "5.0.0",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.0.1",
-            "requested": "6.0.1"
+            "locked": "6.1.0",
+            "requested": "6.+"
         },
         "org.apache.lucene:lucene-analyzers-common": {
             "locked": "5.5.4",
@@ -47,12 +47,12 @@
     },
     "integTestCompileClasspath": {
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "2.5.11",
+            "locked": "5.0.0",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.0.1",
-            "requested": "6.0.1"
+            "locked": "6.1.0",
+            "requested": "6.+"
         },
         "org.apache.lucene:lucene-analyzers-common": {
             "locked": "5.5.4",
@@ -93,12 +93,12 @@
     },
     "integTestRuntime": {
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "2.5.11",
+            "locked": "5.0.0",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.0.1",
-            "requested": "6.0.1"
+            "locked": "6.1.0",
+            "requested": "6.+"
         },
         "org.apache.lucene:lucene-analyzers-common": {
             "locked": "5.5.4",
@@ -139,12 +139,12 @@
     },
     "integTestRuntimeClasspath": {
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "2.5.11",
+            "locked": "5.0.0",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.0.1",
-            "requested": "6.0.1"
+            "locked": "6.1.0",
+            "requested": "6.+"
         },
         "org.apache.lucene:lucene-analyzers-common": {
             "locked": "5.5.4",
@@ -195,12 +195,12 @@
     },
     "testCompile": {
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "2.5.11",
+            "locked": "5.0.0",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.0.1",
-            "requested": "6.0.1"
+            "locked": "6.1.0",
+            "requested": "6.+"
         },
         "org.apache.lucene:lucene-analyzers-common": {
             "locked": "5.5.4",
@@ -241,12 +241,12 @@
     },
     "testCompileClasspath": {
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "2.5.11",
+            "locked": "5.0.0",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.0.1",
-            "requested": "6.0.1"
+            "locked": "6.1.0",
+            "requested": "6.+"
         },
         "org.apache.lucene:lucene-analyzers-common": {
             "locked": "5.5.4",
@@ -287,12 +287,12 @@
     },
     "testRuntime": {
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "2.5.11",
+            "locked": "5.0.0",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.0.1",
-            "requested": "6.0.1"
+            "locked": "6.1.0",
+            "requested": "6.+"
         },
         "org.apache.lucene:lucene-analyzers-common": {
             "locked": "5.5.4",
@@ -333,12 +333,12 @@
     },
     "testRuntimeClasspath": {
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "2.5.11",
+            "locked": "5.0.0",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.0.1",
-            "requested": "6.0.1"
+            "locked": "6.1.0",
+            "requested": "6.+"
         },
         "org.apache.lucene:lucene-analyzers-common": {
             "locked": "5.5.4",
