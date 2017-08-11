@@ -1,0 +1,16 @@
+{
+  "align": [
+    {
+      "name": "align-jetty",
+      "group": "org.eclipse.jetty",
+      "excludes": ["jetty-hazelcast", "jetty-nested", "jetty-policy", "jetty-ajp", "jetty-websocket", "test-jetty-servlet"],
+      "reason": "Align jetty libraries",
+      "author": "Rob Spieldenner <rspieldenner@netflix.com>",
+      "date": "2017-08-11"
+    }
+  ],
+  "replace": [],
+  "substitute": [],
+  "deny": [],
+  "reject": []
+}
