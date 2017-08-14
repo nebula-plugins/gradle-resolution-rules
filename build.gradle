@@ -44,3 +44,5 @@ dependencies {
     testCompile 'org.apache.lucene:lucene-highlighter:5.5.4'
     testCompile 'org.apache.lucene:lucene-backward-codecs:5.5.4'
 }
+
+publishPlugins.enabled = false
