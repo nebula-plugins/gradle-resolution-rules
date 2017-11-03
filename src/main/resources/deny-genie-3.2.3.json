@@ -1,0 +1,14 @@
+{
+    "replace" : [],
+    "substitute": [],
+    "deny": [
+        {
+            "module": "com.netflix.genie:genie-core:3.2.3",
+            "reason" : "Genie 3.2.3 is a retired build and should not be used",
+            "author" : "Marco Primi <mprimi@netflix.com>",
+            "date" : "2017-11-03T00:00:00.000Z"
+        }
+    ],
+    "reject": [],
+    "align": []
+}
