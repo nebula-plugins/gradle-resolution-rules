@@ -1,7 +1,7 @@
 {
     "integTestCompile": {
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "5.0.0",
+            "locked": "5.0.2",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
@@ -9,23 +9,23 @@
             "requested": "6.+"
         },
         "org.apache.lucene:lucene-analyzers-common": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-backward-codecs": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-core": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-highlighter": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-queryparser": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.maven.indexer:indexer-core": {
@@ -47,7 +47,7 @@
     },
     "integTestCompileClasspath": {
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "5.0.0",
+            "locked": "5.0.2",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
@@ -55,23 +55,23 @@
             "requested": "6.+"
         },
         "org.apache.lucene:lucene-analyzers-common": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-backward-codecs": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-core": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-highlighter": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-queryparser": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.maven.indexer:indexer-core": {
@@ -93,7 +93,7 @@
     },
     "integTestRuntime": {
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "5.0.0",
+            "locked": "5.0.2",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
@@ -101,23 +101,23 @@
             "requested": "6.+"
         },
         "org.apache.lucene:lucene-analyzers-common": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-backward-codecs": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-core": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-highlighter": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-queryparser": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.maven.indexer:indexer-core": {
@@ -139,7 +139,7 @@
     },
     "integTestRuntimeClasspath": {
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "5.0.0",
+            "locked": "5.0.2",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
@@ -147,23 +147,23 @@
             "requested": "6.+"
         },
         "org.apache.lucene:lucene-analyzers-common": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-backward-codecs": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-core": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-highlighter": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-queryparser": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.maven.indexer:indexer-core": {
@@ -185,17 +185,19 @@
     },
     "jacocoAgent": {
         "org.jacoco:org.jacoco.agent": {
-            "locked": "0.7.8"
+            "locked": "0.7.9",
+            "requested": "0.7.9"
         }
     },
     "jacocoAnt": {
         "org.jacoco:org.jacoco.ant": {
-            "locked": "0.7.8"
+            "locked": "0.7.9",
+            "requested": "0.7.9"
         }
     },
     "testCompile": {
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "5.0.0",
+            "locked": "5.0.2",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
@@ -203,23 +205,23 @@
             "requested": "6.+"
         },
         "org.apache.lucene:lucene-analyzers-common": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-backward-codecs": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-core": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-highlighter": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-queryparser": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.maven.indexer:indexer-core": {
@@ -241,7 +243,7 @@
     },
     "testCompileClasspath": {
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "5.0.0",
+            "locked": "5.0.2",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
@@ -249,23 +251,23 @@
             "requested": "6.+"
         },
         "org.apache.lucene:lucene-analyzers-common": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-backward-codecs": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-core": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-highlighter": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-queryparser": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.maven.indexer:indexer-core": {
@@ -287,7 +289,7 @@
     },
     "testRuntime": {
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "5.0.0",
+            "locked": "5.0.2",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
@@ -295,23 +297,23 @@
             "requested": "6.+"
         },
         "org.apache.lucene:lucene-analyzers-common": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-backward-codecs": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-core": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-highlighter": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-queryparser": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.maven.indexer:indexer-core": {
@@ -333,7 +335,7 @@
     },
     "testRuntimeClasspath": {
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "5.0.0",
+            "locked": "5.0.2",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
@@ -341,23 +343,23 @@
             "requested": "6.+"
         },
         "org.apache.lucene:lucene-analyzers-common": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-backward-codecs": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-core": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-highlighter": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.lucene:lucene-queryparser": {
-            "locked": "5.5.4",
+            "locked": "5.5.5",
             "requested": "5.5.4"
         },
         "org.apache.maven.indexer:indexer-core": {
