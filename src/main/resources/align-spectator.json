@@ -2,6 +2,7 @@
     "align": [
         {
             "group": "com\\.netflix\\.spectator",
+            "includes": [],
             "excludes": ["spectator-reg-metrics2", "spectator-reg-tdigest"],
             "reason": "Align Spectator libraries.",
             "author": "Brian Harrington <brharrington@netflix.com>",

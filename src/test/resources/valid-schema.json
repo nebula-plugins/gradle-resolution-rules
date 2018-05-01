@@ -5,7 +5,48 @@
   "type": "object",
   "properties": {
     "align": {
-      "type": "array"
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "group": {
+            "type": "string"
+          },
+          "includes": {
+            "type": "array"
+          },
+          "excludes": {
+            "type": "array"
+          },
+          "match": {
+            "type": "string"
+          },
+          "ruleSet": {
+            "type": "string"
+          },
+          "reason": {
+            "type": "string"
+          },
+          "author": {
+            "type": "string"
+          },
+          "date": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "includes",
+          "excludes",
+          "reason",
+          "author",
+          "date",
+          "group"
+        ]
+      },
+      "uniqueItems": true
     },
     "deny": {
       "type": "array"

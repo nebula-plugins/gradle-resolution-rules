@@ -3,6 +3,7 @@
         {
             "group": "io\\.swagger",
             "includes": ["swagger-(servlet|hibernate-validations|jersey2-jaxrs|mule|jersey-jaxrs|jaxrs|core|models|annotations|project)"],
+            "excludes": [],
             "reason": "Align Swagger libraries.",
             "author": "Danny Thomas <dannyt@netflix.com>",
             "date": "2016-05-31"

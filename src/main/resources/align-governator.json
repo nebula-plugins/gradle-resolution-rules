@@ -4,6 +4,7 @@
                 "name": "align-governator",
                 "group": "com.netflix.governator",
                 "includes": ["governator(-.*)?"],
+                "excludes": [],
                 "reason": "Align Netflix Governator libraries",
                 "author": "Noel Yap <noel.yap+github.com@gmail.com>",
                 "date": "2016-05-12"

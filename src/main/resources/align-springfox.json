@@ -3,6 +3,7 @@
         {
             "group": "io.springfox",
             "includes": ["springfox-(bean-validators|core|schema|spi|spring-web|swagger-common|swagger-ui|swagger2|)"],
+            "excludes": [],
             "reason": "Align Springfox libraries.",
             "author": "Remy Tiitre <remy.tiitre@lhv.ee>",
             "date": "2016-09-22"

@@ -3,6 +3,7 @@
             {
                 "group": "org.jetbrains.kotlin",
                 "reason": "Align Kotlin libraries",
+                "includes": [],
                 "excludes": ["kotlin-(gradle-plugin-core|jdk-annotations|android-sdk-annotations|swing|jdbc|stdlib-validator|android-compiler-plugin|gradle-plugin-test|maven-plugin-test|build-common-test|stdlib-gen|js-tests-junit|js-tests|js-library|build-common)", "kdoc", "kdoc-maven-plugin", "kunit"],
                 "author": "Danny Thomas <dannyt@netflix.com>",
                 "date": "2016-06-14"

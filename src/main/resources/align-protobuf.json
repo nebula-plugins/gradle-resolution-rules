@@ -4,6 +4,7 @@
                 "name": "align-protobuf",
                 "group": "com.google.protobuf",
                 "includes": ["protobuf-java", "protobuf-java-util", "protobuf-parent", "protoc"],
+                "excludes": [],
                 "reason": "Align protobuf libraries",
                 "author": "Taylor Wicksell <taylor.wicksell+github.com@gmail.com>",
                 "date": "2017-02-07"

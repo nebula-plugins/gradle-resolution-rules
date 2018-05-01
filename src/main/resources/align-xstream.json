@@ -5,6 +5,8 @@
                 "match": "EXCLUDE_SUFFIXES",
                 "reason": "Align all xstream libraries",
                 "author": "Danny Thomas <dannyt@netflix.com>",
+                "includes": [],
+                "excludes": [],
                 "date": "2016-05-15"
             }
     ],

@@ -5,6 +5,8 @@
                 "group": "io.grpc",
                 "reason": "Align gRPC libraries",
                 "author": "Noel Yap <noel.yap+github.com@gmail.com>",
+                "includes": [],
+                "excludes": [],
                 "date": "2016-05-13"
             }
     ],
