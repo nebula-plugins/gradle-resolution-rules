@@ -11,5 +11,6 @@
     "replace": [],
     "substitute": [],
     "deny": [],
+    "exclude": [],
     "reject": []
 }

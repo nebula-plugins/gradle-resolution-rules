@@ -10,5 +10,6 @@
         }
     ],
     "reject": [],
+    "exclude": [],
     "align": []
 }

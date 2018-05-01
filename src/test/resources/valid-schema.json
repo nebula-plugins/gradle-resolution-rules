@@ -1,0 +1,34 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Resolution Rule",
+  "description": "validation of resolution rules",
+  "type": "object",
+  "properties": {
+    "align": {
+      "type": "array"
+    },
+    "deny": {
+      "type": "array"
+    },
+    "exclude": {
+      "type": "array"
+    },
+    "reject": {
+      "type": "array"
+    },
+    "replace": {
+      "type": "array"
+    },
+    "substitute": {
+      "type": "array"
+    }
+  },
+  "required": [
+    "align",
+    "deny",
+    "exclude",
+    "reject",
+    "replace",
+    "substitute"
+  ]
+}

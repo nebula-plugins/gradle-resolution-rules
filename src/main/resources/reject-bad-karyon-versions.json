@@ -1,8 +1,9 @@
 {
     "align": [],
     "replace": [],
-    "align": [],
+    "exclude": [],
     "deny": [],
+    "substitute": [],
     "reject": [
         {
             "module": "com.netflix.karyon:karyon-admin:2.0.02",

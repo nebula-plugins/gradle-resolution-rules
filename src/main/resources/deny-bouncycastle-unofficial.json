@@ -76,5 +76,6 @@
     "align": [],
     "replace": [],
     "reject": [],
+    "exclude": [],
     "substitute": []
 }
