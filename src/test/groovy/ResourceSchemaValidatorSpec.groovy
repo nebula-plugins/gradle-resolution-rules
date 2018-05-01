@@ -69,7 +69,7 @@ class ResourceSchemaValidatorSpec extends Specification {
     }
 
     @Unroll
-    def 'verifies invalid resource \'#resourceName\' is does not match schema'() {
+    def 'verifies invalid resource \'#resourceName\' does not match schema'() {
         when:
         def schemaName = 'valid-schema.json'
 
