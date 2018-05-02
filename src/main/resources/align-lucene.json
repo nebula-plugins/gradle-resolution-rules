@@ -3,6 +3,7 @@
     {
       "name": "align-lucene",
       "group": "org.apache.lucene",
+      "includes": [],
       "excludes": ["lucene-(analyzers|ant|bdb-je|bdb|collation|contrib|demos|icu|icu4j|instantiated|kuromoji|lucli|phonetic|pruning|regex|remote|similarity|smartcn|spellchecker|stempel|swing|wordnet|xercesImpl)"],
       "reason": "Align all Lucene libraries",
       "author": "Rob Spieldenner <rob.spieldenner@gmail.com>",
@@ -12,5 +13,6 @@
   "replace": [],
   "substitute": [],
   "deny": [],
+  "exclude": [],
   "reject": []
 }

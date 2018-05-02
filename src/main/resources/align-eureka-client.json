@@ -4,6 +4,7 @@
             "name": "align-eureka-client",
             "group": "com.netflix.eureka",
             "includes": ["eureka-(client|client-archaius2|client-jersey2|test-utils)"],
+            "excludes": [],
             "reason": "Align Eureka Client libraries.",
             "author": "David Liu <dliu@netflix.com>",
             "date": "2016-10-11"
@@ -12,5 +13,6 @@
     "replace": [],
     "substitute": [],
     "deny": [],
+    "exclude": [],
     "reject": []
 }

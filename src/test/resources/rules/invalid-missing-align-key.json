@@ -1,0 +1,17 @@
+{
+  "align": [
+    {
+      "name": "align-foo",
+      "group": "io.foo",
+      "includes": [],
+      "excludes": [],
+      "author": "author <a@example.com>",
+      "date": "2020-02-20"
+    }
+  ],
+  "deny": [],
+  "exclude": [],
+  "reject": [],
+  "replace": [],
+  "substitute": []
+}

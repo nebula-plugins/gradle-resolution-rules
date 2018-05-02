@@ -25,5 +25,6 @@
     "substitute": [],
     "align": [],
     "deny": [],
+    "exclude": [],
     "reject": []
 }

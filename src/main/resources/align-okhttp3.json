@@ -2,6 +2,7 @@
     "align": [
             {
                 "group": "com\\.squareup\\.okhttp3.*",
+                "includes": [],
                 "excludes": ["okhttp-ws"],
                 "reason": "Align okhttp3",
                 "author": "Danny Thomas <dannyt@netflix.com>",
@@ -11,5 +12,6 @@
     "replace": [],
     "substitute": [],
     "deny": [],
+    "exclude": [],
     "reject": []
 }

@@ -29,6 +29,7 @@ contacts {
 
 repositories {
      maven { url 'https://repository.apache.org/content/groups/snapshots/' }
+    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
@@ -43,6 +44,8 @@ dependencies {
     testCompile 'org.apache.lucene:lucene-analyzers-common:5.5.4'
     testCompile 'org.apache.lucene:lucene-highlighter:5.5.4'
     testCompile 'org.apache.lucene:lucene-backward-codecs:5.5.4'
+
+    testCompile 'com.github.everit-org.json-schema:org.everit.json.schema:1.8.0'
 }
 
 publishPlugins.enabled = false

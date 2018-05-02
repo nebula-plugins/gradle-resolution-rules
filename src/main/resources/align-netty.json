@@ -3,6 +3,7 @@
             {
                 "name": "align-netty",
                 "group": "io.netty",
+                "includes": [],
                 "excludes": ["netty", "netty-(metrics-yammer|tcnative-boringssl-static|tcnative|tcnative-parent|microbench|codec-redis|codec-smtp|build|bom|testsuite-autobahn|transport-native-unix-common|transport-native-kqueue|tarball|dev-tools)"],
                 "reason": "Align all Netty libraries",
                 "author": "Danny Thomas <dannyt@netflix.com>",
@@ -12,5 +13,6 @@
     "replace": [],
     "substitute": [],
     "deny": [],
+    "exclude": [],
     "reject": []
 }

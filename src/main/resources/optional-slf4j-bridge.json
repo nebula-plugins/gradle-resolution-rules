@@ -18,5 +18,6 @@
     "replace": [],
     "align": [],
     "deny": [],
+    "exclude": [],
     "reject": []
 }
