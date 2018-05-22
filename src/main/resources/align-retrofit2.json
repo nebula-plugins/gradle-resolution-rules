@@ -1,0 +1,17 @@
+{
+    "align": [
+            {
+                "group": "com\\.squareup\\.retrofit2",
+                "includes": [],
+                "excludes": [],
+                "reason": "Align retrofit2",
+                "author": "Steve Hill <sghill.dev@gmail.com>",
+                "date": "2018-05-19"
+            }
+    ],
+    "replace": [],
+    "substitute": [],
+    "exclude": [],
+    "deny": [],
+    "reject": []
+}
