@@ -1,0 +1,17 @@
+{
+  "align": [
+    {
+      "group": "com\\.netflix\\.servo",
+      "includes": [],
+      "excludes": ["servo-internal", "servo-cloudwatch", "servo"],
+      "reason": "Align Servo libraries.",
+      "author": "Steve Hill <sghill.dev@gmail.com>",
+      "date": "2018-07-28"
+    }
+  ],
+  "replace": [],
+  "substitute": [],
+  "deny": [],
+  "reject": [],
+  "exclude": []
+}
