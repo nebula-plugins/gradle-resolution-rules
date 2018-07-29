@@ -1,0 +1,17 @@
+{
+  "align": [
+    {
+      "group": "org\\.hibernate",
+      "includes": ["hibernate-search", "hibernate-search-.*"],
+      "excludes": [],
+      "reason": "Align hibernate-search libraries.",
+      "author": "Steve Hill <sghill.dev@gmail.com>",
+      "date": "2018-07-28"
+    }
+  ],
+  "replace": [],
+  "substitute": [],
+  "deny": [],
+  "reject": [],
+  "exclude": []
+}
