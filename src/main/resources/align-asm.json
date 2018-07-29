@@ -1,0 +1,21 @@
+{
+  "align": [
+    {
+      "group": "org\\.ow2\\.asm",
+      "includes": [],
+      "excludes": [
+        "asm-all",
+        "asm-debug-all",
+        "asm-parent"
+      ],
+      "reason": "Align asm libraries.",
+      "author": "Steve Hill <sghill.dev@gmail.com>",
+      "date": "2018-07-28"
+    }
+  ],
+  "replace": [],
+  "substitute": [],
+  "deny": [],
+  "reject": [],
+  "exclude": []
+}
