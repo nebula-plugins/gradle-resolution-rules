@@ -1,0 +1,40 @@
+{
+  "align": [
+    {
+      "group": "org\\.hibernate",
+      "includes": [
+        "hibernate-agroal",
+        "hibernate-c3p0",
+        "hibernate-core",
+        "hibernate-ehcache",
+        "hibernate-entitymanager",
+        "hibernate-envers",
+        "hibernate-gradle-plugin",
+        "hibernate-hikaricp",
+        "hibernate-infinispan",
+        "hibernate-java8",
+        "hibernate-jcache",
+        "hibernate-jipijapa",
+        "hibernate-jpamodelgen",
+        "hibernate-orm-jbossmodules",
+        "hibernate-osgi",
+        "hibernate-proxool",
+        "hibernate-spatial",
+        "hibernate-testing",
+        "hibernate-tools",
+        "hibernate-tools-maven-plugin",
+        "hibernate-tools-parent",
+        "hibernate-vibur"
+      ],
+      "excludes": [],
+      "reason": "Align hibernate-core libraries.",
+      "author": "Steve Hill <sghill.dev@gmail.com>",
+      "date": "2018-07-28"
+    }
+  ],
+  "replace": [],
+  "substitute": [],
+  "deny": [],
+  "reject": [],
+  "exclude": []
+}

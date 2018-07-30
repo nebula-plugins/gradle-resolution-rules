@@ -1,0 +1,17 @@
+{
+  "align": [
+    {
+      "group": "org\\.hibernate",
+      "includes": ["hibernate-validator", "hibernate-validator-.*"],
+      "excludes": [],
+      "reason": "Align hibernate-validator libraries.",
+      "author": "Steve Hill <sghill.dev@gmail.com>",
+      "date": "2018-07-28"
+    }
+  ],
+  "replace": [],
+  "substitute": [],
+  "deny": [],
+  "reject": [],
+  "exclude": []
+}
