@@ -1,7 +1,11 @@
 {
     "integTestCompile": {
+        "com.github.everit-org.json-schema:org.everit.json.schema": {
+            "locked": "1.8.0",
+            "requested": "1.8.0"
+        },
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "5.1.1",
+            "locked": "6.0.2",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
@@ -46,8 +50,12 @@
         }
     },
     "integTestCompileClasspath": {
+        "com.github.everit-org.json-schema:org.everit.json.schema": {
+            "locked": "1.8.0",
+            "requested": "1.8.0"
+        },
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "5.1.1",
+            "locked": "6.0.2",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
@@ -92,8 +100,12 @@
         }
     },
     "integTestRuntime": {
+        "com.github.everit-org.json-schema:org.everit.json.schema": {
+            "locked": "1.8.0",
+            "requested": "1.8.0"
+        },
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "5.1.1",
+            "locked": "6.0.2",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
@@ -138,8 +150,12 @@
         }
     },
     "integTestRuntimeClasspath": {
+        "com.github.everit-org.json-schema:org.everit.json.schema": {
+            "locked": "1.8.0",
+            "requested": "1.8.0"
+        },
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "5.1.1",
+            "locked": "6.0.2",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
@@ -194,8 +210,12 @@
         }
     },
     "testCompile": {
+        "com.github.everit-org.json-schema:org.everit.json.schema": {
+            "locked": "1.8.0",
+            "requested": "1.8.0"
+        },
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "5.1.1",
+            "locked": "6.0.2",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
@@ -240,8 +260,12 @@
         }
     },
     "testCompileClasspath": {
+        "com.github.everit-org.json-schema:org.everit.json.schema": {
+            "locked": "1.8.0",
+            "requested": "1.8.0"
+        },
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "5.1.1",
+            "locked": "6.0.2",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
@@ -286,8 +310,12 @@
         }
     },
     "testRuntime": {
+        "com.github.everit-org.json-schema:org.everit.json.schema": {
+            "locked": "1.8.0",
+            "requested": "1.8.0"
+        },
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "5.1.1",
+            "locked": "6.0.2",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
@@ -332,8 +360,12 @@
         }
     },
     "testRuntimeClasspath": {
+        "com.github.everit-org.json-schema:org.everit.json.schema": {
+            "locked": "1.8.0",
+            "requested": "1.8.0"
+        },
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "5.1.1",
+            "locked": "6.0.2",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
