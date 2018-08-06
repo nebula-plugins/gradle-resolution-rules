@@ -1,6 +1,7 @@
 {
     "align": [
             {
+                "name": "align-kotlin",
                 "group": "org.jetbrains.kotlin",
                 "reason": "Align Kotlin libraries",
                 "includes": [],

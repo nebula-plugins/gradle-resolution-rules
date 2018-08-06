@@ -1,6 +1,7 @@
 {
     "align": [
             {
+                "name": "align-okhttp3",
                 "group": "com\\.squareup\\.okhttp3.*",
                 "includes": [],
                 "excludes": ["okhttp-ws"],

@@ -1,6 +1,7 @@
 {
     "align": [
             {
+                "name": "align-xstream",
                 "group": "com.thoughtworks.xstream",
                 "match": "EXCLUDE_SUFFIXES",
                 "reason": "Align all xstream libraries",

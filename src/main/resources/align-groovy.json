@@ -1,6 +1,7 @@
 {
     "align": [
             {
+                "name": "align-groovy",
                 "group": "org\\.codehaus\\.groovy",
                 "includes": [],
                 "excludes": ["groovy-(eclipse-compiler|eclipse-batch|all-tests|xmlrpc|all-jdk14|jdk14|all-minimal)", "http-builder"],

@@ -1,6 +1,7 @@
 {
     "align": [
         {
+            "name": "align-springframework",
             "group": "org\\.springframework",
             "includes": ["spring-(tx|aop|instrument|context-support|beans|jms|test|core|oxm|web|context|expression|aspects|websocket|framework-bom|webmvc|webmvc-portlet|jdbc|orm|instrument-tomcat|messaging)"],
             "excludes": [],

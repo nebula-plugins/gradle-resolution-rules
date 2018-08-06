@@ -1,6 +1,7 @@
 {
     "align": [
         {
+            "name": "align-xbean",
             "group": "org\\.apache\\.xbean",
             "includes": ["xbean-finder-shaded", "xbean-telnet", "xbean-blueprint", "xbean-reflect", "xbean-asm5-shaded", "xbean-naming", "xbean-finder", "xbean-asm-util", "xbean-bundleutils", "xbean-classpath", "xbean-classloader", "maven-xbean-plugin", "xbean-spring", "xbean"],
             "excludes": [],
