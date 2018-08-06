@@ -1,6 +1,7 @@
 {
     "align": [
         {
+            "name": "align-springframework-integration",
             "group": "org\\.springframework\\.integration",
             "includes": [],
             "excludes": ["spring-integration-(smb|java-dsl|kafka|tuple|cassandra|flow|smpp|splunk|httpinvoker|parent|adapter|samples|aws)"],

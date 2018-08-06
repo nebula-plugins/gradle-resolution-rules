@@ -1,6 +1,7 @@
 {
     "align": [
         {
+            "name": "align-ribbon",
             "group": "com\\.netflix\\.ribbon",
             "includes": [],
             "excludes": ["ribbon-httpasyncclient"],

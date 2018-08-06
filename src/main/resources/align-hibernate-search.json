@@ -1,6 +1,7 @@
 {
   "align": [
     {
+      "name": "align-hibernate-search",
       "group": "org\\.hibernate",
       "includes": ["hibernate-search", "hibernate-search-.*"],
       "excludes": [],

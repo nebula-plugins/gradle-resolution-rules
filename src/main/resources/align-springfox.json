@@ -1,6 +1,7 @@
 {
     "align": [
         {
+            "name": "align-springfox",
             "group": "io.springfox",
             "includes": ["springfox-(bean-validators|core|schema|spi|spring-web|swagger-common|swagger-ui|swagger2|)"],
             "excludes": [],

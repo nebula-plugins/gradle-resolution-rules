@@ -1,6 +1,7 @@
 {
     "align": [
         {
+            "name": "align-swagger",
             "group": "io\\.swagger",
             "includes": ["swagger-(servlet|hibernate-validations|jersey2-jaxrs|mule|jersey-jaxrs|jaxrs|core|models|annotations|project)"],
             "excludes": [],

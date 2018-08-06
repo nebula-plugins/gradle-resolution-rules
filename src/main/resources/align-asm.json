@@ -1,6 +1,7 @@
 {
   "align": [
     {
+      "name": "align-asm",
       "group": "org\\.ow2\\.asm",
       "includes": [],
       "excludes": [

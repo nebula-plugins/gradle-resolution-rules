@@ -1,6 +1,7 @@
 {
   "align": [
     {
+      "name": "align-hibernate-core",
       "group": "org\\.hibernate",
       "includes": [
         "hibernate-agroal",

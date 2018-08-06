@@ -1,6 +1,7 @@
 {
   "align": [
     {
+      "name": "align-servo",
       "group": "com\\.netflix\\.servo",
       "includes": [],
       "excludes": ["servo-internal", "servo-cloudwatch", "servo"],

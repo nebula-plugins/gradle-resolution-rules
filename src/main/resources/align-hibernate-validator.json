@@ -1,6 +1,7 @@
 {
   "align": [
     {
+      "name": "align-hibernate-validator",
       "group": "org\\.hibernate",
       "includes": ["hibernate-validator", "hibernate-validator-.*"],
       "excludes": [],

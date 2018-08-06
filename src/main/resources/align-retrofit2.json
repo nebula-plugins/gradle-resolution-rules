@@ -1,6 +1,7 @@
 {
     "align": [
             {
+                "name": "align-retrofit2",
                 "group": "com\\.squareup\\.retrofit2",
                 "includes": [],
                 "excludes": [],

@@ -1,6 +1,7 @@
 {
     "align": [
         {
+            "name": "align-spectator",
             "group": "com\\.netflix\\.spectator",
             "includes": [],
             "excludes": ["spectator-reg-metrics2", "spectator-reg-tdigest"],
