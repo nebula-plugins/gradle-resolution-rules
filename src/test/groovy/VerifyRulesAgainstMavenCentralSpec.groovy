@@ -124,6 +124,7 @@ class VerifyRulesAgainstMavenCentralSpec extends Specification {
         def groupId = info.groupId
         def artifactId = info.artifactId
         String module = "$info.groupId:$info.artifactId"
+        String moduleWithVersion = "$info.groupId:$info.artifactId:$info.version"
 
         def alignRules = ruleSet.align
         def moduleRules = [ruleSet.deny, ruleSet.exclude, ruleSet.reject].flatten()
@@ -140,7 +141,7 @@ class VerifyRulesAgainstMavenCentralSpec extends Specification {
             }
         }
         moduleWithRules.each { rule ->
-            if (rule.module == module || rule.with == module) {
+            if (rule.module == module || rule.with == module || rule.module == moduleWithVersion || rule.with == moduleWithVersion) {
                 artifactsByRule.put(rule, info)
             }
         }

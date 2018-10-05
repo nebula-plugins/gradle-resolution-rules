@@ -1,0 +1,16 @@
+{
+  "replace": [],
+  "substitute": [
+    {
+      "module": "org.jvnet.mimepull:mimepull:1.9.8",
+      "with": "org.jvnet.mimepull:mimepull:1.9.9",
+      "reason" : "Mimepull 1.9.8 does not exist in Maven Central but is a dependency of com.sun.xml.messaging.saaj:saaj-impl:1.5.0",
+      "author" : "Rahul Somasunderam <rsomasunderam@netflix.com>",
+      "date": "2018-10-04T17:02:57.000Z"
+    }
+  ],
+  "deny": [],
+  "reject": [],
+  "exclude": [],
+  "align": []
+}
