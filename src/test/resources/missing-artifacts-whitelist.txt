@@ -21,3 +21,5 @@ org.bouncycastle:bctsp-jdk16:1.46
 com.google.protobuf:protobuf-java:3.1.0-build2
 com.google.protobuf:protobuf-java-util:3.1.0-build2
 com.google.protobuf:protobuf-parent:3.1.0-build2
+org.jvnet.mimepull:mimepull:1.9.8
+org.jvnet.mimepull:mimepull:1.9.9
