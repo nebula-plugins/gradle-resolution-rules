@@ -26,6 +26,7 @@ import spock.lang.Specification
 import java.util.concurrent.Executors
 import java.util.concurrent.TimeUnit
 
+@Ignore("Since plugin 3.0.0 we use a version range to perform alignment, which means that alignment no longer has these requirements. Keeping these tests around for future reference")
 class VerifyRulesAgainstMavenCentralSpec extends Specification {
     @Shared
     IndexingContext context
@@ -153,7 +154,6 @@ class VerifyRulesAgainstMavenCentralSpec extends Specification {
         return artifactsByRule
     }
 
-    @Ignore("Since plugin 3.0.0 we use a version range to perform alignment, which means that alignment no longer has these requirements. Keeping this around for future reference")
     def 'align rules are able to align to the latest release across all artifacts'() {
         expect:
         def versionScheme = new GenericVersionScheme()
