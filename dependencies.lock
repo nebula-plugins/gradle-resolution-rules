@@ -5,12 +5,12 @@
             "requested": "1.8.0"
         },
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "6.0.2",
+            "locked": "7.0.5",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.4.0",
-            "requested": "6.+"
+            "locked": "7.1.4",
+            "requested": "7.+"
         },
         "org.apache.lucene:lucene-analyzers-common": {
             "locked": "5.5.5",
@@ -55,12 +55,12 @@
             "requested": "1.8.0"
         },
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "6.0.2",
+            "locked": "7.0.5",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.4.0",
-            "requested": "6.+"
+            "locked": "7.1.4",
+            "requested": "7.+"
         },
         "org.apache.lucene:lucene-analyzers-common": {
             "locked": "5.5.5",
@@ -105,12 +105,12 @@
             "requested": "1.8.0"
         },
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "6.0.2",
+            "locked": "7.0.5",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.4.0",
-            "requested": "6.+"
+            "locked": "7.1.4",
+            "requested": "7.+"
         },
         "org.apache.lucene:lucene-analyzers-common": {
             "locked": "5.5.5",
@@ -155,12 +155,12 @@
             "requested": "1.8.0"
         },
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "6.0.2",
+            "locked": "7.0.5",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.4.0",
-            "requested": "6.+"
+            "locked": "7.1.4",
+            "requested": "7.+"
         },
         "org.apache.lucene:lucene-analyzers-common": {
             "locked": "5.5.5",
@@ -201,12 +201,12 @@
     },
     "jacocoAgent": {
         "org.jacoco:org.jacoco.agent": {
-            "locked": "0.8.1"
+            "locked": "0.8.2"
         }
     },
     "jacocoAnt": {
         "org.jacoco:org.jacoco.ant": {
-            "locked": "0.8.1"
+            "locked": "0.8.2"
         }
     },
     "testCompile": {
@@ -215,12 +215,12 @@
             "requested": "1.8.0"
         },
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "6.0.2",
+            "locked": "7.0.5",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.4.0",
-            "requested": "6.+"
+            "locked": "7.1.4",
+            "requested": "7.+"
         },
         "org.apache.lucene:lucene-analyzers-common": {
             "locked": "5.5.5",
@@ -265,12 +265,12 @@
             "requested": "1.8.0"
         },
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "6.0.2",
+            "locked": "7.0.5",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.4.0",
-            "requested": "6.+"
+            "locked": "7.1.4",
+            "requested": "7.+"
         },
         "org.apache.lucene:lucene-analyzers-common": {
             "locked": "5.5.5",
@@ -315,12 +315,12 @@
             "requested": "1.8.0"
         },
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "6.0.2",
+            "locked": "7.0.5",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.4.0",
-            "requested": "6.+"
+            "locked": "7.1.4",
+            "requested": "7.+"
         },
         "org.apache.lucene:lucene-analyzers-common": {
             "locked": "5.5.5",
@@ -365,12 +365,12 @@
             "requested": "1.8.0"
         },
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "6.0.2",
+            "locked": "7.0.5",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "6.4.0",
-            "requested": "6.+"
+            "locked": "7.1.4",
+            "requested": "7.+"
         },
         "org.apache.lucene:lucene-analyzers-common": {
             "locked": "5.5.5",
