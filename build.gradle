@@ -25,6 +25,10 @@ contacts {
         moniker 'Danny Thomas'
         github 'DanielThomas'
     }
+    'roberto@perezalcolea.info' {
+        moniker 'Roberto Perez Alcolea'
+        github 'rpalcolea'
+    }
 }
 
 repositories {
