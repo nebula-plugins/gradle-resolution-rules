@@ -15,7 +15,7 @@
  */
 
 plugins {
-    id 'nebula.plugin-plugin' version '9.3.4'
+    id 'nebula.plugin-plugin' version '9.3.7'
 }
 
 description 'Rules for the Resolution Rules plugin'
