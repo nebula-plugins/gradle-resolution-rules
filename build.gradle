@@ -1,5 +1,5 @@
 /*
- * Copyright 2016-2017 Netflix, Inc.
+ * Copyright 2016-2019 Netflix, Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,7 +15,7 @@
  */
 
 plugins {
-    id 'nebula.plugin-plugin' version '11.1.1'
+    id 'nebula.plugin-plugin' version '11.2.1'
 }
 
 description 'Rules for the Resolution Rules plugin'
