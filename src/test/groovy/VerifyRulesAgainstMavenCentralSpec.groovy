@@ -23,7 +23,10 @@ import org.gradle.testfixtures.ProjectBuilder
 import spock.lang.Ignore
 import spock.lang.Shared
 import spock.lang.Specification
+import java.util.concurrent.Executors
+import java.util.concurrent.TimeUnit
 
+@Ignore("Since plugin 3.0.0 we use a version range to perform alignment, which means that alignment no longer has these requirements. Keeping these tests around for future reference")
 class VerifyRulesAgainstMavenCentralSpec extends Specification {
     @Shared
     IndexingContext context
@@ -84,28 +87,31 @@ class VerifyRulesAgainstMavenCentralSpec extends Specification {
         def liveDocs = MultiFields.getLiveDocs(reader)
         def maxDocs = reader.maxDoc()
         def fieldSplitter = Splitter.on('|')
+        def executorService = Executors.newFixedThreadPool(Runtime.runtime.availableProcessors())
         for (i in 0..maxDocs - 1) {
-            if (liveDocs != null && !liveDocs.get(i)) {
-                continue
-            }
-            def doc = reader.document(i)
-            if (doc.get(ArtifactInfo.UINFO) == null) {
-                // Otherwise, the document has been marked as deleted for incremental updates
-                continue
-            }
+            if (liveDocs == null || liveDocs.get(i)) {
+                def doc = reader.document(i)
+                executorService.execute {
+                    if (doc.get(ArtifactInfo.UINFO) != null) {
+                        def uinfo = fieldSplitter.split(doc.get(ArtifactInfo.UINFO))
+                        def groupId = uinfo[0]
+                        def artifactId = uinfo[1]
+                        def version = uinfo[2]
+                        def classifier = uinfo[3]
+                        def extension = uinfo[4]
 
-            def uinfo = fieldSplitter.split(doc.get(ArtifactInfo.UINFO))
-            def groupId = uinfo[0]
-            def artifactId = uinfo[1]
-            def version = uinfo[2]
-            def classifier = uinfo[3]
-            def extension = uinfo[4]
-
-            if (SUPPORTED_EXTENSIONS.contains(extension) && classifier == "NA") {
-                def info = new ArtifactInfo("central", groupId, artifactId, version, classifier, extension)
-                artifactsByRule.putAll(matchedRules(info, ruleSet))
+                        if (SUPPORTED_EXTENSIONS.contains(extension) && classifier == "NA") {
+                            def info = new ArtifactInfo("central", groupId, artifactId, version, classifier, extension)
+                            synchronized (artifactsByRule) {
+                                artifactsByRule.putAll(matchedRules(info, ruleSet))
+                            }
+                        }
+                    }
+                }
             }
         }
+        executorService.shutdown()
+        executorService.awaitTermination(2, TimeUnit.MINUTES)
 
         def classLoader = VerifyRulesAgainstMavenCentralSpec.classLoader
         def missingArtifacts = classLoader.getResourceAsStream("missing-artifacts-whitelist.txt").readLines().collect {
@@ -124,6 +130,7 @@ class VerifyRulesAgainstMavenCentralSpec extends Specification {
         def groupId = info.groupId
         def artifactId = info.artifactId
         String module = "$info.groupId:$info.artifactId"
+        String moduleWithVersion = "$info.groupId:$info.artifactId:$info.version"
 
         def alignRules = ruleSet.align
         def moduleRules = [ruleSet.deny, ruleSet.exclude, ruleSet.reject].flatten()
@@ -140,14 +147,13 @@ class VerifyRulesAgainstMavenCentralSpec extends Specification {
             }
         }
         moduleWithRules.each { rule ->
-            if (rule.module == module || rule.with == module) {
+            if (rule.module == module || rule.with == module || rule.module == moduleWithVersion || rule.with == moduleWithVersion) {
                 artifactsByRule.put(rule, info)
             }
         }
         return artifactsByRule
     }
 
-    @Ignore("Since plugin 3.0.0 we use a version range to perform alignment, which means that alignment no longer has these requirements. Keeping this around for future reference")
     def 'align rules are able to align to the latest release across all artifacts'() {
         expect:
         def versionScheme = new GenericVersionScheme()

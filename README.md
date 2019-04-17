@@ -35,6 +35,7 @@ Optional rules can be enabled by adding the name of the rule set to the list of 
 | Rule Set Name | Description   |
 | ------------- |:-------------:|
 | `slf4j-bridge` | Replaces concrete logging implementations with SLF4J bridges |
+| `spring-boot-log4j2` | Excludes concrete logging implementations that conflict with the Spring Boot Log4J starter |
 
 # Contributing Rules
 
