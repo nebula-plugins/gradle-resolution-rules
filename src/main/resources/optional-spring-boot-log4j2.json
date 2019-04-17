@@ -1,0 +1,48 @@
+{
+    "substitute": [],
+    "replace": [
+        {
+            "module" : "commons-logging:commons-logging",
+            "with" : "org.springframework:spring-jcl",
+            "reason" : "Spring Boot Log4J 2 configuration",
+            "author" : "Danny Thomas",
+            "date" : "2018-10-30"
+        },
+        {
+            "module" : "log4j:log4j",
+            "with" : "org.apache.logging.log4j:log4j-1.2-api",
+            "reason" : "Spring Boot Log4J 2 configuration",
+            "author" : "Danny Thomas",
+            "date" : "2018-10-30"
+        }
+    ],
+    "align": [],
+    "deny": [],
+    "exclude": [
+        {
+            "module" : "ch.qos.logback:logback-classic",
+            "reason" : "Spring Boot Log4J 2 configuration",
+            "author" : "Danny Thomas",
+            "date" : "2018-10-30"
+        },
+        {
+            "module" : "ch.qos.logback:logback-core",
+            "reason" : "Spring Boot Log4J 2 configuration",
+            "author" : "Danny Thomas",
+            "date" : "2018-10-30"
+        },
+        {
+            "module" : "org.apache.logging.log4j:log4j-to-slf4j",
+            "reason" : "Spring Boot Log4J 2 configuration",
+            "author" : "Danny Thomas",
+            "date" : "2018-10-30"
+        },
+        {
+            "module" : "org.slf4j:slf4j-log4j12",
+            "reason" : "Spring Boot Log4J 2 configuration",
+            "author" : "Danny Thomas",
+            "date" : "2018-10-30"
+        }
+    ],
+    "reject": []
+}
