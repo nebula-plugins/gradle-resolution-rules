@@ -7,5 +7,4 @@ out/
 *.ipr
 *.iml
 *.iws
-gradle.properties
 travis_wait_*
