@@ -37,22 +37,22 @@ repositories {
 }
 
 dependencies {
-    testCompile 'com.netflix.nebula:gradle-resolution-rules-plugin:latest.release'
-    testCompile 'com.netflix.nebula:nebula-test:latest.release'
+    testImplementation 'com.netflix.nebula:gradle-resolution-rules-plugin:latest.release'
+    testImplementation 'com.netflix.nebula:nebula-test:latest.release'
 
-    testCompile platform("com.fasterxml.jackson:jackson-bom:2.9.9.20190807")
+    testImplementation platform("com.fasterxml.jackson:jackson-bom:2.9.9.20190807")
 
-    testCompile 'org.apache.maven.indexer:indexer-core:6.0.0'
-    testCompile 'org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.3'
-    testCompile 'org.sonatype.sisu:sisu-guice:3.2.6'
-    testCompile 'org.apache.maven.wagon:wagon-http:2.10'
-    testCompile 'org.apache.lucene:lucene-core:5.5.4'
-    testCompile 'org.apache.lucene:lucene-queryparser:5.5.4'
-    testCompile 'org.apache.lucene:lucene-analyzers-common:5.5.4'
-    testCompile 'org.apache.lucene:lucene-highlighter:5.5.4'
-    testCompile 'org.apache.lucene:lucene-backward-codecs:5.5.4'
+    testImplementation 'org.apache.maven.indexer:indexer-core:6.0.0'
+    testImplementation 'org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.3'
+    testImplementation 'org.sonatype.sisu:sisu-guice:3.2.6'
+    testImplementation 'org.apache.maven.wagon:wagon-http:2.10'
+    testImplementation 'org.apache.lucene:lucene-core:5.5.4'
+    testImplementation 'org.apache.lucene:lucene-queryparser:5.5.4'
+    testImplementation 'org.apache.lucene:lucene-analyzers-common:5.5.4'
+    testImplementation 'org.apache.lucene:lucene-highlighter:5.5.4'
+    testImplementation 'org.apache.lucene:lucene-backward-codecs:5.5.4'
 
-    testCompile 'com.github.everit-org.json-schema:org.everit.json.schema:1.8.0'
+    testImplementation 'com.github.everit-org.json-schema:org.everit.json.schema:1.8.0'
 }
 
 publishPlugins.enabled = false
