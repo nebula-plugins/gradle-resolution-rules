@@ -20,11 +20,11 @@ package nebula.plugin.resolutionrules
 
 import spock.lang.Unroll
 
-class SubstituteEvCacheSpec extends AbstractRulesSpec {
+class RejectAndSubstituteEvCacheSpec extends AbstractRulesSpec {
     def setup() {
         buildFile << """\
             dependencies {
-                resolutionRules files('${new File("src/main/resources/substitute-evcache.json").absolutePath}')
+                resolutionRules files('${new File("src/main/resources/reject-and-substitute-evcache.json").absolutePath}')
             }
             """.stripIndent()
     }
@@ -51,5 +51,6 @@ class SubstituteEvCacheSpec extends AbstractRulesSpec {
         '5.12.2'             | 'com.netflix.evcache:evcache-core:5.11.2'
         '5.12.1'             | 'com.netflix.evcache:evcache-client:5.12.1 -> 5.11.2'
         '5.12.0'             | 'com.netflix.evcache:evcache-client:5.12.0 -> 5.11.2'
+        '5.+'                | 'com.netflix.evcache:evcache-client:5.+ -> 5.11.2' // a reject rule assists here
     }
 }
