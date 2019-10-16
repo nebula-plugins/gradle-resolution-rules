@@ -2,35 +2,7 @@
     "align": [],
     "deny": [],
     "exclude": [],
-    "reject": [
-        {
-            "module" : "com.netflix.evcache:evcache-client:[5.12.0,5.12.2]",
-            "reason" : "api incompatiblity",
-            "author" : "EVCache Team <dlevcachedev@netflix.com>",
-            "date" : "2019-10-04"
-        },
-        {
-            "module" : "com.netflix.evcache:evcache-core:[5.12.0,5.12.2]",
-            "reason" : "api incompatibility",
-            "author" : "EVCache Team <dlevcachedev@netflix.com>",
-            "date" : "2019-10-04"
-        }
-    ],
+    "reject": [],
     "replace" : [],
-    "substitute": [
-        {
-            "module" : "com.netflix.evcache:evcache-client:[5.12.0,5.12.2]",
-            "with" : "com.netflix.evcache:evcache-client:5.11.2",
-            "reason" : "api incompatiblity",
-            "author" : "EVCache Team <dlevcachedev@netflix.com>",
-            "date" : "2019-10-04"
-        },
-        {
-            "module" : "com.netflix.evcache:evcache-core:[5.12.0,5.12.2]",
-            "with" : "com.netflix.evcache:evcache-core:5.11.2",
-            "reason" : "api incompatibility",
-            "author" : "EVCache Team <dlevcachedev@netflix.com>",
-            "date" : "2019-10-04"
-        }
-    ]
+    "substitute": []
 }
