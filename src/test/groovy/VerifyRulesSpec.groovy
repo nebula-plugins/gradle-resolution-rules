@@ -14,7 +14,7 @@ class VerifyRulesSpec extends IntegrationSpec {
         }
 
         dependencies {
-            compile 'com.google.guava:guava:19.0'
+            implementation 'com.google.guava:guava:19.0'
 
             resolutionRules fileTree('$rulesDir').include('*.json')
         }
