@@ -119,6 +119,7 @@ class VerifyRulesSpec extends IntegrationSpec {
     def 'jackson databind 2.8.8.1 last should fail with compile configuration'() {
         def rulesDir = new File('src/main/resources').absoluteFile
         def rulesFiles = rulesDir.list()
+        System.setProperty("ignoreDeprecations", "true")
 
         buildFile << """
         apply plugin: 'java'
@@ -129,19 +130,21 @@ class VerifyRulesSpec extends IntegrationSpec {
         }
 
         dependencies {
-            implementation 'com.fasterxml.jackson.core:jackson-core:2.8.2'
-            implementation 'com.fasterxml.jackson.core:jackson-databind:2.8.8.1'
+            compile 'com.fasterxml.jackson.core:jackson-core:2.8.2'
+            compile 'com.fasterxml.jackson.core:jackson-databind:2.8.8.1'
 
             resolutionRules fileTree('$rulesDir').include('align-jackson.json')
         }
         """
 
         when:
-        def result = runTasksSuccessfully('dependencies', '--configuration', 'compile')
+        def result = runTasksSuccessfully('dependencies', '--configuration', 'compile', '-d')
 
         then:
         assert rulesFiles.size() > 0
         result.standardOutput.contains('com.fasterxml.jackson.core:jackson-databind:2.8.8.1\n')
         result.standardOutput.contains('com.fasterxml.jackson.core:jackson-core:2.8.2 -> 2.8.8\n')
+        System.setProperty("ignoreDeprecations", "false")
+
     }
 }
