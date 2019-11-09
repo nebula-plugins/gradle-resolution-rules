@@ -34,7 +34,7 @@ class SubstituteJacksonSpec extends AbstractRulesSpec {
         given:
         buildFile << """
             dependencies {
-                compile "com.fasterxml.jackson.core:jackson-databind:${declaredVersion}"
+                implementation "com.fasterxml.jackson.core:jackson-databind:${declaredVersion}"
             }
             """.stripIndent()
 
