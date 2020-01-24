@@ -1,0 +1,16 @@
+{
+  "replace" : [
+    {
+      "module" : "javax.validation:validation-api",
+      "with" : "jakarta.validation:jakarta.validation-api",
+      "reason" : "Jakarta is replacing javax. This avoids having both on the classpath which helps to align the versions",
+      "author" : "Asi Bross",
+      "date" : "2020-01-24T00:00:00.000Z"
+    }
+  ],
+  "align": [],
+  "substitute": [],
+  "deny": [],
+  "exclude": [],
+  "reject": []
+}
