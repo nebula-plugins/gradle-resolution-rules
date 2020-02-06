@@ -41,5 +41,6 @@ class AbstractRulesSpec extends IntegrationTestKitSpec {
             """.stripIndent()
         keepFiles = true
         debug = true
+        definePluginOutsideOfPluginBlock = true
     }
 }
