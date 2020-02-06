@@ -51,4 +51,27 @@ class SubstituteJacksonSpec extends AbstractRulesSpec {
         '2.9.9.2'           | 'com.fasterxml.jackson.core:jackson-databind:2.9.9.2 -> 2.9.9.3'
         '2.9.9.3'           | 'com.fasterxml.jackson.core:jackson-databind:2.9.9.3'
     }
+
+    @Unroll
+    def "do not substitute dependency above allowed range - #declaredVersion"() {
+        given:
+        buildFile << """
+            dependencies {
+                implementation "com.fasterxml.jackson.core:jackson-databind:${declaredVersion}"
+            }
+            """.stripIndent()
+
+        when:
+        def result = runTasks('dependencies', '--configuration', 'compileClasspath')
+
+        then:
+        !result.output.contains("FAIL")
+        !result.output.contains('com.fasterxml.jackson.core:jackson-databind:2.9.9.3')
+        result.output.contains(output)
+
+        where:
+        declaredVersion     | output
+        '2.8.0'             | 'com.fasterxml.jackson.core:jackson-databind:2.8.0'
+        'latest.release'    | 'com.fasterxml.jackson.core:jackson-databind:latest.release -> '
+    }
 }
