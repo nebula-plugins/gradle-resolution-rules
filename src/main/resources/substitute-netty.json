@@ -1,0 +1,16 @@
+{
+  "replace": [],
+  "substitute": [
+    {
+      "module": "io.netty:netty-codec-http:4.1.44.Final",
+      "with": "io.netty:netty-codec-http:4.1.45.Final",
+      "reason" : "This is a bug-fix release which also fixes two regressions",
+      "author" : "OdysseusLives",
+      "date": "2020-02-06T13:26:01.000Z"
+    }
+  ],
+  "deny": [],
+  "reject": [],
+  "exclude": [],
+  "align": []
+}
