@@ -1,0 +1,17 @@
+{
+    "align": [
+        {
+            "group": "org\\.springframework\\.kafka",
+            "includes": [],
+            "excludes": [],
+            "reason": "Align Spring Kafka",
+            "author": "Roberto Perez Alcolea <rperezalcolea@netflix.com>",
+            "date": "2020-12-03"
+        }
+    ],
+    "replace": [],
+    "substitute": [],
+    "deny": [],
+    "reject": [],
+    "exclude": []
+}
