@@ -6,6 +6,20 @@
       "reason" : "Jakarta is replacing javax. This avoids having both on the classpath which helps to align the versions",
       "author" : "Asi Bross",
       "date" : "2020-01-24T00:00:00.000Z"
+    },
+    {
+      "module" : "javax.persistence:javax.persistence-api",
+      "with"   : "jakarta.persistence:jakarta.persistence-api",
+      "reason" : "Java Persistence API (JPA), in 2019 renamed to Jakarta Persistence",
+      "author" : "Roberto Perez Alcolea",
+      "date"   : "2020-12-19T17:38:00.000Z"
+    },
+    {
+      "module" : "javax.persistence:persistence-api",
+      "with"   : "jakarta.persistence:jakarta.persistence-api",
+      "reason" : "Java Persistence API (JPA), in 2019 renamed to Jakarta Persistence",
+      "author" : "Roberto Perez Alcolea",
+      "date"   : "2020-12-19T17:38:00.000Z"
     }
   ],
   "align": [],
