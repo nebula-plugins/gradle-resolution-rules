@@ -11,7 +11,7 @@ class ReplaceJavaxIntegrationSpec extends RulesBaseSpecification {
             """.stripIndent()
     }
 
-    def 'check replacement works'() {
+    def 'check replacement works for jakarta.persistence-api'() {
         buildFile << '''\
             dependencies {
                 implementation 'javax.persistence:persistence-api:1.0'
@@ -92,5 +92,57 @@ class ReplaceJavaxIntegrationSpec extends RulesBaseSpecification {
         then:
         result.output.contains('javax.persistence:persistence-api:1.0')
         !result.output.contains('jakarta.persistence:jakarta.persistence-api')
+    }
+
+
+    def 'check replacement works for javax.persistence-api'() {
+        buildFile << '''\
+            dependencies {
+                implementation 'javax.persistence:persistence-api:1.0'
+                implementation 'javax.persistence:javax.persistence-api:2.2'
+            }
+            '''.stripIndent()
+        when:
+        BuildResult result = runWithArgumentsSuccessfully('dependencies', '--configuration', 'compileClasspath')
+
+        then:
+        result.output.contains('javax.persistence:persistence-api:1.0 -> javax.persistence:javax.persistence-api:2.2')
+        result.output.contains('javax.persistence:javax.persistence-api:2.2')
+
+        when:
+        writeJavaSourceFile("""\
+            package test.nebula.netflix.hello;
+        
+            import javax.persistence.*;
+            import java.util.List;
+            
+            @Entity
+            @Table(name = "my_table")
+            public class MyClass {
+            
+                @Id
+                @GeneratedValue(
+                        generator = "id_seq",
+                        strategy = GenerationType.SEQUENCE)
+                private long id;
+            
+                @OneToMany(cascade = CascadeType.ALL, mappedBy = "output", orphanRemoval = true, fetch = FetchType.EAGER)
+                private List<MyOtherClass> others;
+            
+            }
+
+            """.stripIndent(), 'src/main/java', projectDir)
+
+        writeJavaSourceFile("""\
+            package test.nebula.netflix.hello;
+        
+            public class MyOtherClass {
+                 String something;
+            }
+            
+            """.stripIndent(), 'src/main/java', projectDir)
+
+        then:
+        runWithArgumentsSuccessfully('compileJava')
     }
 }
