@@ -3,7 +3,7 @@
     {
       "name": "align-jetty",
       "group": "org.eclipse.jetty",
-      "excludes": ["jetty-hazelcast", "jetty-nested", "jetty-policy", "jetty-ajp", "jetty-websocket", "test-jetty-servlet"],
+      "excludes": ["jetty-hazelcast", "jetty-nested", "jetty-policy", "jetty-ajp", "jetty-websocket", "test-jetty-servlet", "jetty-reactive-httpclient"],
       "includes": [],
       "reason": "Align jetty libraries",
       "author": "Rob Spieldenner <rspieldenner@netflix.com>",
