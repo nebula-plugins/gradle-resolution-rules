@@ -20,13 +20,6 @@
       "reason" : "Java Persistence API (JPA), in 2019 renamed to Jakarta Persistence",
       "author" : "Roberto Perez Alcolea",
       "date"   : "2020-12-10T17:38:00.000Z"
-    },
-    {
-      "module" : "javax.persistence:persistence-api",
-      "with"   : "javax.persistence:javax.persistence-api",
-      "reason" : "javax.persistence:javax.persistence-api is preferred over javax.persistence:persistence-api",
-      "author" : "Roberto Perez Alcolea",
-      "date"   : "2020-12-11T17:38:00.000Z"
     }
   ],
   "align": [],

@@ -94,20 +94,19 @@ class ReplaceJavaxIntegrationSpec extends RulesBaseSpecification {
         !result.output.contains('jakarta.persistence:jakarta.persistence-api')
     }
 
-
     def 'check replacement works for javax.persistence-api'() {
         buildFile << '''\
             dependencies {
                 implementation 'javax.persistence:persistence-api:1.0'
-                implementation 'javax.persistence:javax.persistence-api:2.2'
+                implementation 'jakarta.persistence:jakarta.persistence-api:2.2.3'
             }
             '''.stripIndent()
         when:
         BuildResult result = runWithArgumentsSuccessfully('dependencies', '--configuration', 'compileClasspath')
 
         then:
-        result.output.contains('javax.persistence:persistence-api:1.0 -> javax.persistence:javax.persistence-api:2.2')
-        result.output.contains('javax.persistence:javax.persistence-api:2.2')
+        result.output.contains('javax.persistence:persistence-api:1.0 -> jakarta.persistence:jakarta.persistence-api:2.2.3')
+        result.output.contains('jakarta.persistence:jakarta.persistence-api:2.2.3')
 
         when:
         writeJavaSourceFile("""\
