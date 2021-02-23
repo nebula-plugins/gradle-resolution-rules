@@ -11,7 +11,7 @@ class VerifyRulesSpec extends IntegrationSpec {
         apply plugin: 'nebula.resolution-rules'
 
         repositories {
-            jcenter()
+            mavenCentral()
         }
 
         dependencies {
@@ -38,7 +38,7 @@ class VerifyRulesSpec extends IntegrationSpec {
         apply plugin: 'nebula.resolution-rules'
 
         repositories {
-            jcenter()
+            mavenCentral()
         }
 
         dependencies {
@@ -66,7 +66,7 @@ class VerifyRulesSpec extends IntegrationSpec {
         apply plugin: 'nebula.resolution-rules'
 
         repositories {
-            jcenter()
+            mavenCentral()
         }
 
         dependencies {
@@ -95,7 +95,7 @@ class VerifyRulesSpec extends IntegrationSpec {
         apply plugin: 'nebula.resolution-rules'
 
         repositories {
-            jcenter()
+            mavenCentral()
         }
 
         dependencies {
