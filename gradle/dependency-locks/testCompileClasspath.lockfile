@@ -2,13 +2,8 @@
 # Manual edits can break the build and are not advised.
 # This file is expected to be part of source control.
 aopalliance:aopalliance:1.0
-cglib:cglib-nodep:3.2.2
 com.damnhandy:handy-uri-templates:2.1.6
-com.fasterxml.jackson.core:jackson-annotations:2.10.2
-com.fasterxml.jackson.core:jackson-core:2.10.2
-com.fasterxml.jackson.core:jackson-databind:2.10.2
-com.fasterxml.jackson.module:jackson-module-kotlin:2.10.2
-com.fasterxml.jackson:jackson-bom:2.10.2.20200130
+com.fasterxml.jackson:jackson-bom:2.10.5.20201202
 com.github.everit-org.json-schema:org.everit.json.schema:1.8.0
 com.google.code.findbugs:jsr305:3.0.2
 com.google.errorprone:error_prone_annotations:2.0.18
@@ -16,15 +11,13 @@ com.google.guava:guava:22.0
 com.google.inject:guice:4.1.0
 com.google.j2objc:j2objc-annotations:1.1
 com.google.re2j:re2j:1.1
-com.netflix.nebula:gradle-resolution-rules-plugin:7.5.0
-com.netflix.nebula:nebula-dependency-recommender:9.0.1
-com.netflix.nebula:nebula-gradle-interop:1.0.11
-com.netflix.nebula:nebula-test:7.7.0
+com.netflix.nebula:gradle-resolution-rules-plugin:7.8.7
+com.netflix.nebula:nebula-test:9.0.0
 commons-beanutils:commons-beanutils:1.9.2
 commons-codec:commons-codec:1.6
 commons-collections:commons-collections:3.2.2
 commons-digester:commons-digester:1.8.1
-commons-io:commons-io:2.5
+commons-io:commons-io:2.2
 commons-lang:commons-lang:2.6
 commons-logging:commons-logging:1.2
 commons-validator:commons-validator:1.6
@@ -60,15 +53,8 @@ org.codehaus.plexus:plexus-utils:3.1.0
 org.eclipse.sisu:org.eclipse.sisu.inject:0.3.3
 org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.3
 org.hamcrest:hamcrest-core:1.3
-org.jetbrains.kotlin:kotlin-reflect:1.3.61
-org.jetbrains.kotlin:kotlin-stdlib-common:1.3.61
-org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.50
-org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.50
-org.jetbrains.kotlin:kotlin-stdlib:1.3.61
-org.jetbrains:annotations:13.0
 org.json:json:20180130
 org.jsoup:jsoup:1.7.2
-org.objenesis:objenesis:2.4
 org.slf4j:slf4j-api:1.7.25
 org.sonatype.sisu:sisu-guice:3.2.6
 org.spockframework:spock-core:1.3-groovy-2.4
