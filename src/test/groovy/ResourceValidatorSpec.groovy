@@ -1,4 +1,5 @@
-import com.fasterxml.jackson.databind.ObjectMapper
+
+import groovy.json.JsonSlurper
 import spock.lang.Shared
 import spock.lang.Specification
 import spock.lang.Unroll
@@ -18,15 +19,15 @@ class ResourceValidatorSpec extends Specification {
     @Unroll
     def 'verifies resource \'#resourceName\' is valid json'() {
         when:
-        final ObjectMapper mapper = new ObjectMapper();
-
-        then:
         try {
             def file = new File(RESOURCES_PATH + resourceName)
-            mapper.readTree(file)
+            new JsonSlurper().parse(file)
         } catch (Exception e) {
             throw new RuntimeException("resource '${resourceName}' should be valid json", e)
         }
+
+        then:
+        noExceptionThrown()
 
         where:
         resourceName << resourceNames

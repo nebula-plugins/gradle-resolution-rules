@@ -3,7 +3,6 @@
 # This file is expected to be part of source control.
 aopalliance:aopalliance:1.0
 com.damnhandy:handy-uri-templates:2.1.6
-com.fasterxml.jackson:jackson-bom:2.10.5.20201202
 com.github.everit-org.json-schema:org.everit.json.schema:1.8.0
 com.google.code.findbugs:jsr305:3.0.2
 com.google.errorprone:error_prone_annotations:2.0.18

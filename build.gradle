@@ -36,8 +36,6 @@ dependencies {
     testImplementation 'com.netflix.nebula:gradle-resolution-rules-plugin:latest.release'
     testImplementation 'com.netflix.nebula:nebula-test:latest.release'
 
-    testImplementation platform("com.fasterxml.jackson:jackson-bom:2.10.+")
-
     testImplementation 'org.apache.maven.indexer:indexer-core:6.0.0'
     testImplementation 'org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.3'
     testImplementation 'org.sonatype.sisu:sisu-guice:3.2.6'
