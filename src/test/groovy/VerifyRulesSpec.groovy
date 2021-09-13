@@ -22,7 +22,7 @@ class VerifyRulesSpec extends IntegrationSpec {
         """
 
         when:
-        def result = runTasksSuccessfully('dependencies', '--configuration', 'compile', '--debug')
+        def result = runTasksSuccessfully('dependencies', '--configuration', 'compileClasspath', '--debug')
 
         then:
         assert rulesFiles.size() > 0
