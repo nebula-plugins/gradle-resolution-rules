@@ -26,7 +26,7 @@ class AlignSpringKafkaIntegrationSpec extends RulesBaseSpecification {
         BuildResult result = runWithArgumentsSuccessfully('dI', '--dependency', 'spring-kafka')
 
         then:
-        result.output.contains('Selected by rule : aligned to 2.6.3 by rule align-spring-kafka aligning group \'org\\.springframework\\.kafka\'')
+        result.output.contains('By constraint : belongs to platform aligned-platform:align-spring-kafka-0-for-org.springframework.kafka:2.6.3')
         result.output.contains('org.springframework.kafka:spring-kafka-test:2.6.1 -> 2.6.3')
         result.output.contains('org.springframework.kafka:spring-kafka:2.6.3')
     }
@@ -44,7 +44,7 @@ class AlignSpringKafkaIntegrationSpec extends RulesBaseSpecification {
         BuildResult result = runWithArgumentsSuccessfully('dI', '--dependency', 'spring-kafka')
 
         then:
-        result.output.contains('Selected by rule : aligned to 2.5.9.RELEASE by rule align-spring-kafka aligning group \'org\\.springframework\\.kafka\'')
+        result.output.contains('By constraint : belongs to platform aligned-platform:align-spring-kafka-0-for-org.springframework.kafka:2.5.9.RELEASE')
         result.output.contains('org.springframework.kafka:spring-kafka-test:2.5.7.RELEASE -> 2.5.9.RELEASE')
         result.output.contains('org.springframework.kafka:spring-kafka:2.5.9.RELEASE')
     }
