@@ -1,0 +1,18 @@
+{
+    "align": [
+        {
+            "name": "align-apache-kafka",
+            "group": "org\\.apache\\.kafka",
+            "includes": [],
+            "excludes": [],
+            "reason": "Align Apache Kafka libraries",
+            "author": "Richard Fussenegger <fleshgrinder@users.noreply.github.com>",
+            "date": "2021-01-07"
+        }
+    ],
+    "replace": [],
+    "substitute": [],
+    "deny": [],
+    "exclude": [],
+    "reject": []
+}
