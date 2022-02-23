@@ -1,0 +1,18 @@
+{
+    "align": [
+        {
+            "name": "align-confluent-kafka",
+            "group": "io\\.confluent",
+            "includes": ["kafka-.*"],
+            "excludes": [],
+            "reason": "Align Confluent Kafka libraries",
+            "author": "Richard Fussenegger <fleshgrinder@users.noreply.github.com>",
+            "date": "2022-01-10"
+        }
+    ],
+    "replace": [],
+    "substitute": [],
+    "deny": [],
+    "exclude": [],
+    "reject": []
+}
