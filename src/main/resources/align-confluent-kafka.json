@@ -1,7 +1,7 @@
 {
     "align": [
         {
-            "name": "align-archaius2",
+            "name": "align-confluent-kafka",
             "group": "io\\.confluent",
             "includes": ["kafka-.*"],
             "excludes": [],
