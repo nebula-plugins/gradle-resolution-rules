@@ -6,9 +6,9 @@
     "replace": [],
     "substitute": [
         {
-            "module": "org.apache.logging.log4j:log4j-core:(,2.17.0]",
-            "with": "org.apache.logging.log4j:log4j-core:2.17.1",
-            "reason": "Log4J 2 versions prior to 2.16.0 are vulnerable to lookup injection attacks that allow RCE and DOS attacks. 2.17.1 is recommended",
+            "module": "org.apache.logging.log4j:log4j-core:(,2.17.1]",
+            "with": "org.apache.logging.log4j:log4j-core:2.17.2",
+            "reason": "Log4J 2 versions prior to 2.16.0 are vulnerable to lookup injection attacks that allow RCE and DOS attacks. 2.17.2 is recommended",
             "author": "dannyt@netflix.com",
             "date": "2021-12-10"
         }

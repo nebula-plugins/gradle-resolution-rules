@@ -12,7 +12,7 @@ class SubstituteLog4J2Spec extends RulesBaseSpecification {
             """.stripIndent()
     }
 
-    def 'substitute log4j version from #log4jVersion to 2.17.1'() {
+    def 'substitute log4j version from #log4jVersion to 2.17.2'() {
         given:
         buildFile << """\
             dependencies {
@@ -24,7 +24,7 @@ class SubstituteLog4J2Spec extends RulesBaseSpecification {
         BuildResult result = runWithArgumentsSuccessfully('dependencies', '--configuration', 'compileClasspath')
 
         then:
-        result.output.contains "org.apache.logging.log4j:log4j-core:${log4jVersion} -> 2.17.1"
+        result.output.contains "org.apache.logging.log4j:log4j-core:${log4jVersion} -> 2.17.2"
 
         where:
         log4jVersion << [
@@ -36,7 +36,8 @@ class SubstituteLog4J2Spec extends RulesBaseSpecification {
                 '2.14.1',
                 '2.15.0',
                 '2.16.0',
-                '2.17.0'
+                '2.17.0',
+                '2.17.1'
         ]
     }
 }
