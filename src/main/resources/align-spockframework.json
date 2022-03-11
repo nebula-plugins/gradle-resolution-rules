@@ -1,0 +1,17 @@
+{
+  "align": [
+    {
+      "group": "org\\.spockframework",
+      "includes": [],
+      "excludes": ["spock-groovy2-compat", "spock-grails-support", "spock-maven"],
+      "reason": "Align spockframework libraries.",
+      "author": "Aubrey Chipman",
+      "date": "2022-03-10"
+    }
+  ],
+  "replace": [],
+  "substitute": [],
+  "deny": [],
+  "reject": [],
+  "exclude": []
+}
