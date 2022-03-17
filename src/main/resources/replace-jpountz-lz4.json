@@ -1,0 +1,16 @@
+{
+    "align": [],
+    "deny": [],
+    "exclude": [],
+    "replace" : [
+            {
+                "module" : "net.jpountz.lz4:lz4",
+                "with" : "org.lz4:lz4-java",
+                "reason" : "having both net.jpountz.lz4:lz4 and org.lz4:lz4-java should prefer org.lz4:lz4-java",
+                "author" : "Dave Ray",
+                "date" : "2022-03-16"
+            }
+    ],
+    "reject": [],
+    "substitute": []
+}
