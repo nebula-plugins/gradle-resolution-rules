@@ -1,18 +1,9 @@
 package nebula.plugin.resolutionrules
 
-import nebula.test.IntegrationSpec
-
-class ReplaceJpountzLz4Spec extends IntegrationSpec {
+class ReplaceJpountzLz4Spec extends RulesBaseSpecification {
     def setup() {
         def ruleFile = new File(getClass().getResource('/replace-jpountz-lz4.json').toURI())
         buildFile << """\
-            apply plugin: 'java'
-            apply plugin: 'nebula.resolution-rules'
-            
-            repositories {
-                mavenCentral()
-            }
-
             dependencies {
                 resolutionRules files('${ruleFile.absolutePath}')
             }
@@ -28,7 +19,7 @@ class ReplaceJpountzLz4Spec extends IntegrationSpec {
             '''.stripIndent()
 
         when:
-        def result = runTasksSuccessfully('dependencies', '--configuration', 'compileClasspath')
+        def result = runWithArgumentsSuccessfully('dependencies', '--configuration', 'compileClasspath')
 
         then:
         result.standardOutput.contains 'net.jpountz.lz4:lz4:latest.release -> org.lz4:lz4-java:'
@@ -42,7 +33,7 @@ class ReplaceJpountzLz4Spec extends IntegrationSpec {
             '''.stripIndent()
 
         when:
-        def result = runTasksSuccessfully('dependencies', '--configuration', 'compileClasspath')
+        def result = runWithArgumentsSuccessfully('dependencies', '--configuration', 'compileClasspath')
 
         then:
         !result.standardOutput.contains('net.jpountz.lz4:lz4:latest.release -> org.lz4:lz4-java:')
