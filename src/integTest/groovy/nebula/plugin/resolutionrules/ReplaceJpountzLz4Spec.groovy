@@ -22,7 +22,7 @@ class ReplaceJpountzLz4Spec extends RulesBaseSpecification {
         def result = runWithArgumentsSuccessfully('dependencies', '--configuration', 'compileClasspath')
 
         then:
-        result.standardOutput.contains 'net.jpountz.lz4:lz4:latest.release -> org.lz4:lz4-java:'
+        result.output.contains 'net.jpountz.lz4:lz4:latest.release -> org.lz4:lz4-java:'
     }
 
     def 'leaves net.jpountz.lz4 if org.lz4:lz4-java is not present'() {
@@ -36,6 +36,6 @@ class ReplaceJpountzLz4Spec extends RulesBaseSpecification {
         def result = runWithArgumentsSuccessfully('dependencies', '--configuration', 'compileClasspath')
 
         then:
-        !result.standardOutput.contains('net.jpountz.lz4:lz4:latest.release -> org.lz4:lz4-java:')
+        !result.output.contains('net.jpountz.lz4:lz4:latest.release -> org.lz4:lz4-java:')
     }
 }
