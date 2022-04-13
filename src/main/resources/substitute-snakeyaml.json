@@ -1,0 +1,16 @@
+{
+    "align": [],
+    "deny": [],
+    "exclude": [],
+    "reject": [],
+    "replace": [],
+    "substitute": [
+        {
+            "module": "org.yaml:snakeyaml:1.30",
+            "with": "org.yaml:snakeyaml:1.29",
+            "reason": "release 1.30 is missing 'android' (classifier) variant jar",
+            "author": "Aubrey Chipman",
+            "date": "2022-04-13"
+        }
+    ]
+}
