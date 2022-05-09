@@ -1,0 +1,16 @@
+{
+    "align": [],
+    "deny": [],
+    "exclude": [],
+    "reject": [],
+    "replace": [],
+    "substitute": [
+        {
+            "module": "com.graphql-java:graphql-java-extended-validation:17.0",
+            "with": "com.graphql-java:graphql-java-extended-validation:17.0-hibernate-validator-6.2.0.Final",
+            "reason": "This version is compatible with JEE 8 and Hibernate Validator 6.2 which are compatible with Spring Boot 2.x",
+            "author": "Aubrey Chipman",
+            "date": "2022-04-26"
+        }
+    ]
+}
