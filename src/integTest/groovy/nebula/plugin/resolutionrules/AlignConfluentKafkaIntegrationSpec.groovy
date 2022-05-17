@@ -31,7 +31,7 @@ class AlignConfluentKafkaIntegrationSpec extends RulesBaseSpecification {
         BuildResult result = runWithArgumentsSuccessfully('dI', '--dependency', 'kafka')
 
         then:
-        result.output.contains('By constraint : belongs to platform aligned-platform:align-confluent-kafka-0-for-io.confluent:7.0.0')
+        result.output.contains('By constraint: belongs to platform aligned-platform:align-confluent-kafka-0-for-io.confluent:7.0.0')
         result.output.contains('io.confluent:kafka-connect-avro-converter:6.0.0 -> 7.0.0')
         result.output.contains('io.confluent:kafka-streams-avro-serde:7.0.0')
     }

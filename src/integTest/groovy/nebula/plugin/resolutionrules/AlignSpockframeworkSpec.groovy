@@ -34,7 +34,7 @@ class AlignSpockframeworkSpec extends RulesBaseSpecification {
         BuildResult result = runWithArgumentsSuccessfully('dI', '--dependency', 'org.spockframework')
 
         then:
-        result.output.contains('By constraint : belongs to platform aligned-platform:align-spockframework-0-for-org.spockframework:2.0-groovy-3.0')
+        result.output.contains('By constraint: belongs to platform aligned-platform:align-spockframework-0-for-org.spockframework:2.0-groovy-3.0')
         def alignedVersion = "2.0-groovy-3.0"
         // aligned
         result.output.contains("org.spockframework:spock-core:$alignedVersion\n")
