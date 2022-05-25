@@ -1,0 +1,35 @@
+{
+    "align": [
+        {
+            "group": "org\\.codehaus\\.jackson",
+            "excludes": [
+                "jackson-asl",
+                "jackson-lgpl"
+            ],
+            "includes": [],
+            "reason": "Align Jackson 1.x",
+            "author": "Danny Thomas <dannyt@netflix.com>",
+            "date": "2022-05-26"
+        }
+    ],
+    "replace": [
+        {
+            "module": "org.codehaus.jackson:jackson-core-lgpl",
+            "with": "org.codehaus.jackson:jackson-core-asl",
+            "reason": "Avoid Jackson 1.x classpath duplication",
+            "author": "Danny Thomas <dannyt@netflix.com>",
+            "date": "2022-05-26"
+        },
+        {
+            "module": "org.codehaus.jackson:jackson-mapper-lgpl",
+            "with": "org.codehaus.jackson:jackson-mapper-asl",
+            "reason": "Avoid Jackson 1.x classpath duplication",
+            "author": "Danny Thomas <dannyt@netflix.com>",
+            "date": "2022-05-26"
+        }
+    ],
+    "substitute": [],
+    "deny": [],
+    "exclude": [],
+    "reject": []
+}
