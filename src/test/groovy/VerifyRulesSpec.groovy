@@ -114,4 +114,31 @@ class VerifyRulesSpec extends IntegrationSpec {
         result.standardOutput.contains('com.fasterxml.jackson.core:jackson-databind:2.8.8.1\n')
         result.standardOutput.contains('com.fasterxml.jackson.core:jackson-core:2.8.2 -> 2.8.8\n')
     }
+
+    def 'substitue commons configuration2'() {
+        def rulesDir = new File('src/main/resources').absoluteFile
+        def rulesFiles = rulesDir.list()
+
+        buildFile << """
+        apply plugin: 'java'
+        apply plugin: 'nebula.resolution-rules'
+
+        repositories {
+            mavenCentral()
+        }
+
+        dependencies {
+            implementation 'org.apache.commons:commons-configuration2:2.2'
+
+            resolutionRules fileTree('$rulesDir').include('substitute-commons-configuration2.json')
+        }
+        """
+
+        when:
+        def result = runTasksSuccessfully('dependencies', '--configuration', 'compileClasspath',)
+
+        then:
+        assert rulesFiles.size() > 0
+        result.standardOutput.contains('org.apache.commons:commons-configuration2:2.2 -> 2.8.0\n')
+    }
 }
