@@ -1,0 +1,101 @@
+{
+  "substitute": [
+    {
+      "module": "org.slf4j:slf4j-api:[2.0.0,)",
+      "with": "org.slf4j:slf4j-api:1.7.36",
+      "reason": "Downgrade slf4j to avoid incompatible mix of 1.x and 2.x",
+      "author": "Martin Chalupa",
+      "date" : "2022-09-20"
+    },
+    {
+      "module": "org.slf4j:slf4j-nop:[2.0.0,)",
+      "with": "org.slf4j:slf4j-nop:1.7.36",
+      "reason": "Downgrade slf4j to avoid incompatible mix of 1.x and 2.x",
+      "author": "Martin Chalupa",
+      "date" : "2022-09-20"
+    },
+    {
+      "module": "org.slf4j:slf4j-simple:[2.0.0,)",
+      "with": "org.slf4j:slf4j-simple:1.7.36",
+      "reason": "Downgrade slf4j to avoid incompatible mix of 1.x and 2.x",
+      "author": "Martin Chalupa",
+      "date" : "2022-09-20"
+    },
+    {
+      "module": "org.slf4j:slf4j-log4j12:[2.0.0,)",
+      "with": "org.slf4j:slf4j-log4j12:1.7.36",
+      "reason": "Downgrade slf4j to avoid incompatible mix of 1.x and 2.x",
+      "author": "Martin Chalupa",
+      "date" : "2022-09-20"
+    },
+    {
+      "module": "org.slf4j:slf4j-jdk14:[2.0.0,)",
+      "with": "org.slf4j:slf4j-jdk14:1.7.36",
+      "reason": "Downgrade slf4j to avoid incompatible mix of 1.x and 2.x",
+      "author": "Martin Chalupa",
+      "date" : "2022-09-20"
+    },
+    {
+      "module": "org.slf4j:jcl-over-slf4j:[2.0.0,)",
+      "with": "org.slf4j:jcl-over-slf4j:1.7.36",
+      "reason": "Downgrade slf4j to avoid incompatible mix of 1.x and 2.x",
+      "author": "Martin Chalupa",
+      "date" : "2022-09-20"
+    },
+    {
+      "module": "org.slf4j:jul-to-slf4j:[2.0.0,)",
+      "with": "org.slf4j:jul-to-slf4j:1.7.36",
+      "reason": "Downgrade slf4j to avoid incompatible mix of 1.x and 2.x",
+      "author": "Martin Chalupa",
+      "date" : "2022-09-20"
+    },
+    {
+      "module": "org.slf4j:log4j-over-slf4j:[2.0.0,)",
+      "with": "org.slf4j:log4j-over-slf4j:1.7.36",
+      "reason": "Downgrade slf4j to avoid incompatible mix of 1.x and 2.x",
+      "author": "Martin Chalupa",
+      "date" : "2022-09-20"
+    },
+    {
+      "module": "org.slf4j:osgi-over-slf4j:[2.0.0,)",
+      "with": "org.slf4j:osgi-over-slf4j:1.7.36",
+      "reason": "Downgrade slf4j to avoid incompatible mix of 1.x and 2.x",
+      "author": "Martin Chalupa",
+      "date" : "2022-09-20"
+    },
+    {
+      "module": "org.slf4j:slf4j-ext:[2.0.0,)",
+      "with": "org.slf4j:slf4j-ext:1.7.36",
+      "reason": "Downgrade slf4j to avoid incompatible mix of 1.x and 2.x",
+      "author": "Martin Chalupa",
+      "date" : "2022-09-20"
+    },
+    {
+      "module": "org.slf4j:slf4j-jdk-platform-logging:[2.0.0,)",
+      "with": "org.slf4j:slf4j-jdk-platform-logging:1.7.36",
+      "reason": "Downgrade slf4j to avoid incompatible mix of 1.x and 2.x",
+      "author": "Martin Chalupa",
+      "date" : "2022-09-20"
+    },
+    {
+      "module": "org.slf4j:slf4j-reload4j:[2.0.0,)",
+      "with": "org.slf4j:slf4j-reload4j:1.7.36",
+      "reason": "Downgrade slf4j to avoid incompatible mix of 1.x and 2.x",
+      "author": "Martin Chalupa",
+      "date" : "2022-09-20"
+    }
+  ],
+  "replace": [
+    {
+      "module" : "org.apache.logging.log4j:log4j-slf4j2-impl",
+      "with" : "org.apache.logging.log4j:log4j-slf4j-impl",
+      "reason" : "Pick only slf4j 1.x implementation for log4j",
+      "author" : "Martin Chalupa",
+      "date" : "2022-09-20"
+    }
+  ],
+  "align": [],
+  "deny": [],
+  "exclude": [],
+  "reject": []
+}
