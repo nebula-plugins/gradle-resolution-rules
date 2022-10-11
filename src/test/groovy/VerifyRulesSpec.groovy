@@ -8,7 +8,7 @@ class VerifyRulesSpec extends IntegrationSpec {
 
         buildFile << """
         apply plugin: 'java'
-        apply plugin: 'nebula.resolution-rules'
+        apply plugin: 'com.netflix.nebula.resolution-rules'
 
         repositories {
             mavenCentral()
@@ -35,7 +35,7 @@ class VerifyRulesSpec extends IntegrationSpec {
 
         buildFile << """
         apply plugin: 'java'
-        apply plugin: 'nebula.resolution-rules'
+        apply plugin: 'com.netflix.nebula.resolution-rules'
 
         repositories {
             mavenCentral()
@@ -63,7 +63,7 @@ class VerifyRulesSpec extends IntegrationSpec {
 
         buildFile << """
         apply plugin: 'java'
-        apply plugin: 'nebula.resolution-rules'
+        apply plugin: 'com.netflix.nebula.resolution-rules'
 
         repositories {
             mavenCentral()
@@ -92,7 +92,7 @@ class VerifyRulesSpec extends IntegrationSpec {
 
         buildFile << """
         apply plugin: 'java'
-        apply plugin: 'nebula.resolution-rules'
+        apply plugin: 'com.netflix.nebula.resolution-rules'
 
         repositories {
             mavenCentral()

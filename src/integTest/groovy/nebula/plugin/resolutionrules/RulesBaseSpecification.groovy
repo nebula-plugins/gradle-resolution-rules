@@ -39,7 +39,7 @@ abstract class RulesBaseSpecification extends Specification {
                 classpath "com.netflix.nebula:gradle-resolution-rules-plugin:latest.release"
               }
             }
-            apply plugin: 'nebula.resolution-rules'
+            apply plugin: 'com.netflix.nebula.resolution-rules'
             apply plugin: 'java'
             
             repositories {
