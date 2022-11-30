@@ -3,13 +3,6 @@
     "replace": [
         {
             "module": "log4j:log4j",
-            "with": "org.apache.logging.log4j:log4j-1.2-api",
-            "reason": "Replace log4j 1 with log4j 2 bridge",
-            "author": "Danny Thomas <dannyt@netflix.com>",
-            "date": "2016-09-29"
-        },
-        {
-            "module": "log4j:log4j",
             "with": "ch.qos.reload4j:reload4j",
             "reason": "Replace log4j 1 with reload4j binding",
             "author": "Danny Thomas <dannyt@netflix.com>",
