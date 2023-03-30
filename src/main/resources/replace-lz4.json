@@ -1,0 +1,16 @@
+{
+  "substitute": [],
+  "replace": [
+    {
+      "module": "net.jpountz.lz4:lz4",
+      "with": "org.lz4:lz4-java",
+      "reason": "Replace Yann Collet's original lz4 Java bindings with actively maintained fork",
+      "author": "Danny Thomas <dannyt@netflix.com>",
+      "date": "2023-03-30"
+    }
+  ],
+  "align": [],
+  "deny": [],
+  "exclude": [],
+  "reject": []
+}
