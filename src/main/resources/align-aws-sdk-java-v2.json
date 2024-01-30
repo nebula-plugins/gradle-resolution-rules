@@ -1,0 +1,18 @@
+{
+  "align": [
+    {
+      "name": "align-aws-sdk-java-v2",
+      "group": "software.amazon.awssdk",
+      "includes": [".*"],
+      "excludes": [],
+      "reason": "Align AWS SDK for Java V2 libraries",
+      "author": "Brian Harrington <brharrington@netflix.com>",
+      "date": "2024-01-30T19:53:46.000Z"
+    }
+  ],
+  "replace": [],
+  "substitute": [],
+  "deny": [],
+  "exclude": [],
+  "reject": []
+}
