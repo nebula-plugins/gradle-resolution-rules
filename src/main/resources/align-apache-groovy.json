@@ -1,0 +1,17 @@
+{
+    "align": [
+        {
+            "group": "org\\.apache\\.groovy",
+            "includes": [],
+            "excludes": [],
+            "reason": "Align Apache Groovy libraries",
+            "author": "Danny Thomas <dannyt@netflix.com>",
+            "date": "2024-07-17"
+        }
+    ],
+    "replace": [],
+    "substitute": [],
+    "deny": [],
+    "exclude": [],
+    "reject": []
+}

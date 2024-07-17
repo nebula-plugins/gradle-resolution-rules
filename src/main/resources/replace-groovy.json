@@ -1,0 +1,520 @@
+{
+    "replace" : [
+        {
+            "module" : "org.codehaus.groovy:groovy",
+            "with" : "org.apache.groovy:groovy",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy",
+            "with" : "org.apache.groovy:groovy",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy",
+            "with" : "org.apache.groovy:groovy",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy",
+            "with" : "org.apache.groovy:groovy",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy",
+            "with" : "org.apache.groovy:groovy",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy",
+            "with" : "org.apache.groovy:groovy",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy",
+            "with" : "org.apache.groovy:groovy",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy",
+            "with" : "org.apache.groovy:groovy",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy",
+            "with" : "org.apache.groovy:groovy",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy",
+            "with" : "org.apache.groovy:groovy",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy",
+            "with" : "org.apache.groovy:groovy",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy",
+            "with" : "org.apache.groovy:groovy",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy",
+            "with" : "org.apache.groovy:groovy",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy",
+            "with" : "org.apache.groovy:groovy",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy",
+            "with" : "org.apache.groovy:groovy",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy",
+            "with" : "org.apache.groovy:groovy",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy",
+            "with" : "org.apache.groovy:groovy",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy",
+            "with" : "org.apache.groovy:groovy",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy",
+            "with" : "org.apache.groovy:groovy",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy",
+            "with" : "org.apache.groovy:groovy",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy",
+            "with" : "org.apache.groovy:groovy",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy",
+            "with" : "org.apache.groovy:groovy",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy",
+            "with" : "org.apache.groovy:groovy",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy",
+            "with" : "org.apache.groovy:groovy",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy",
+            "with" : "org.apache.groovy:groovy",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy",
+            "with" : "org.apache.groovy:groovy",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy",
+            "with" : "org.apache.groovy:groovy",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy",
+            "with" : "org.apache.groovy:groovy",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy",
+            "with" : "org.apache.groovy:groovy",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy",
+            "with" : "org.apache.groovy:groovy",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy",
+            "with" : "org.apache.groovy:groovy",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy",
+            "with" : "org.apache.groovy:groovy",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy",
+            "with" : "org.apache.groovy:groovy",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy",
+            "with" : "org.apache.groovy:groovy",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy",
+            "with" : "org.apache.groovy:groovy",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy",
+            "with" : "org.apache.groovy:groovy",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:$package",
+            "with" : "org.apache.groovy:$package",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy",
+            "with" : "org.apache.groovy:groovy",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy-all",
+            "with" : "org.apache.groovy:groovy-all",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy-ant",
+            "with" : "org.apache.groovy:groovy-ant",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy-astbuilder",
+            "with" : "org.apache.groovy:groovy-astbuilder",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy-backports-compat23",
+            "with" : "org.apache.groovy:groovy-backports-compat23",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy-binary",
+            "with" : "org.apache.groovy:groovy-binary",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy-bom",
+            "with" : "org.apache.groovy:groovy-bom",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy-bsf",
+            "with" : "org.apache.groovy:groovy-bsf",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy-cli-commons",
+            "with" : "org.apache.groovy:groovy-cli-commons",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy-cli-picocli",
+            "with" : "org.apache.groovy:groovy-cli-picocli",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy-console",
+            "with" : "org.apache.groovy:groovy-console",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy-contracts",
+            "with" : "org.apache.groovy:groovy-contracts",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy-datetime",
+            "with" : "org.apache.groovy:groovy-datetime",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy-dateutil",
+            "with" : "org.apache.groovy:groovy-dateutil",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy-docgenerator",
+            "with" : "org.apache.groovy:groovy-docgenerator",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy-ginq",
+            "with" : "org.apache.groovy:groovy-ginq",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy-groovydoc",
+            "with" : "org.apache.groovy:groovy-groovydoc",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy-groovysh",
+            "with" : "org.apache.groovy:groovy-groovysh",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy-jaxb",
+            "with" : "org.apache.groovy:groovy-jaxb",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy-jmx",
+            "with" : "org.apache.groovy:groovy-jmx",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy-json",
+            "with" : "org.apache.groovy:groovy-json",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy-jsr223",
+            "with" : "org.apache.groovy:groovy-jsr223",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy-macro",
+            "with" : "org.apache.groovy:groovy-macro",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy-macro-library",
+            "with" : "org.apache.groovy:groovy-macro-library",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy-nio",
+            "with" : "org.apache.groovy:groovy-nio",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy-servlet",
+            "with" : "org.apache.groovy:groovy-servlet",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy-sql",
+            "with" : "org.apache.groovy:groovy-sql",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy-swing",
+            "with" : "org.apache.groovy:groovy-swing",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy-templates",
+            "with" : "org.apache.groovy:groovy-templates",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy-test",
+            "with" : "org.apache.groovy:groovy-test",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy-test-junit5",
+            "with" : "org.apache.groovy:groovy-test-junit5",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy-testng",
+            "with" : "org.apache.groovy:groovy-testng",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy-toml",
+            "with" : "org.apache.groovy:groovy-toml",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy-typecheckers",
+            "with" : "org.apache.groovy:groovy-typecheckers",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy-xml",
+            "with" : "org.apache.groovy:groovy-xml",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        },
+        {
+            "module" : "org.codehaus.groovy:groovy-yaml",
+            "with" : "org.apache.groovy:groovy-yaml",
+            "reason" : "The groovy group id changed for 4.0 and later",
+            "author" : "Danny Thomas",
+            "date" : "2024-07-17"
+        }
+    ],
+    "align": [],
+    "substitute": [],
+    "deny": [],
+    "exclude": [],
+    "reject": []
+}
