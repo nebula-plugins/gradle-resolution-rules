@@ -14,6 +14,13 @@
             "reason" : "Spring Boot Log4J 2 configuration",
             "author" : "Danny Thomas",
             "date" : "2018-10-30"
+        },
+        {
+            "module" : "org.slf4j:slf4j-reload4j",
+            "with" : "org.apache.logging.log4j:log4j-slf4j2-impl",
+            "reason" : "Spring Boot Log4J 2 configuration",
+            "author" : "Asi Bross",
+            "date" : "2025-05-30"
         }
     ],
     "align": [],
