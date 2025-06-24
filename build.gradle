@@ -15,8 +15,8 @@
  */
 
 plugins {
-    id 'com.netflix.nebula.plugin-plugin' version '21.3.3'
-    id 'com.netflix.nebula.integtest' version "10.1.2"
+    id 'com.netflix.nebula.plugin-plugin' version '22.0.2'
+    id 'com.netflix.nebula.integtest' version "11.+"
 }
 
 description 'Rules for the Resolution Rules plugin'
