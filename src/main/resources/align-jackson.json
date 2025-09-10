@@ -3,6 +3,7 @@
             {
                 "group": "com\\.fasterxml\\.jackson\\.(core|dataformat|datatype|jaxrs|jr|module)",
                 "excludes": [
+                    "jackson-annotations",
                     "jackson-datatype-jdk7",
                     "jackson-module-scala_2.12.0-RC1",
                     "jackson-module-scala_2.12.0-M5",
