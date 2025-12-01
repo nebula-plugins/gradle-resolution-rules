@@ -14,7 +14,7 @@ class ReplaceJpountzLz4Spec extends RulesBaseSpecification {
         buildFile << '''\
             dependencies {
                 implementation 'net.jpountz.lz4:lz4:latest.release'
-                implementation 'org.lz4:lz4-java:latest.release'
+                implementation 'org.lz4:lz4-java:1.8.0'
             }
             '''.stripIndent()
 
