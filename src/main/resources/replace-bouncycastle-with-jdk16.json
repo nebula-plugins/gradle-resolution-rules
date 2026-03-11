@@ -1,0 +1,121 @@
+{
+    "replace": [
+        {
+            "module": "org.bouncycastle:bcmail-jdk14",
+            "with": "org.bouncycastle:bcmail-jdk16",
+            "reason": "Ensure that bouncycastle artifacts conflict resolve",
+            "author": "Danny Thomas",
+            "date": "2026-03-11"
+        },
+        {
+            "module": "org.bouncycastle:bcmail-jdk15",
+            "with": "org.bouncycastle:bcmail-jdk16",
+            "reason": "Ensure that bouncycastle artifacts conflict resolve",
+            "author": "Danny Thomas",
+            "date": "2026-03-11"
+        },
+        {
+            "module": "org.bouncycastle:bcmail-jdk15+",
+            "with": "org.bouncycastle:bcmail-jdk16",
+            "reason": "Ensure that bouncycastle artifacts conflict resolve",
+            "author": "Danny Thomas",
+            "date": "2026-03-11"
+        },
+        {
+            "module": "org.bouncycastle:bcpg-jdk12",
+            "with": "org.bouncycastle:bcpg-jdk16",
+            "reason": "Ensure that bouncycastle artifacts conflict resolve",
+            "author": "Danny Thomas",
+            "date": "2026-03-11"
+        },
+        {
+            "module": "org.bouncycastle:bcpg-jdk14",
+            "with": "org.bouncycastle:bcpg-jdk16",
+            "reason": "Ensure that bouncycastle artifacts conflict resolve",
+            "author": "Danny Thomas",
+            "date": "2026-03-11"
+        },
+        {
+            "module": "org.bouncycastle:bcpg-jdk15",
+            "with": "org.bouncycastle:bcpg-jdk16",
+            "reason": "Ensure that bouncycastle artifacts conflict resolve",
+            "author": "Danny Thomas",
+            "date": "2026-03-11"
+        },
+        {
+            "module": "org.bouncycastle:bcpg-jdk15+",
+            "with": "org.bouncycastle:bcpg-jdk16",
+            "reason": "Ensure that bouncycastle artifacts conflict resolve",
+            "author": "Danny Thomas",
+            "date": "2026-03-11"
+        },
+        {
+            "module": "org.bouncycastle:bcprov-jdk12",
+            "with": "org.bouncycastle:bcprov-jdk16",
+            "reason": "Ensure that bouncycastle artifacts conflict resolve",
+            "author": "Danny Thomas",
+            "date": "2026-03-11"
+        },
+        {
+            "module": "org.bouncycastle:bcprov-jdk14",
+            "with": "org.bouncycastle:bcprov-jdk16",
+            "reason": "Ensure that bouncycastle artifacts conflict resolve",
+            "author": "Danny Thomas",
+            "date": "2026-03-11"
+        },
+        {
+            "module": "org.bouncycastle:bcprov-jdk15",
+            "with": "org.bouncycastle:bcprov-jdk16",
+            "reason": "Ensure that bouncycastle artifacts conflict resolve",
+            "author": "Danny Thomas",
+            "date": "2026-03-11"
+        },
+        {
+            "module": "org.bouncycastle:bcprov-jdk15+",
+            "with": "org.bouncycastle:bcprov-jdk16",
+            "reason": "Ensure that bouncycastle artifacts conflict resolve",
+            "author": "Danny Thomas",
+            "date": "2026-03-11"
+        },
+        {
+            "module": "org.bouncycastle:bcprov-ext-jdk14",
+            "with": "org.bouncycastle:bcprov-ext-jdk16",
+            "reason": "Ensure that bouncycastle artifacts conflict resolve",
+            "author": "Danny Thomas",
+            "date": "2026-03-11"
+        },
+        {
+            "module": "org.bouncycastle:bcprov-ext-jdk15",
+            "with": "org.bouncycastle:bcprov-ext-jdk16",
+            "reason": "Ensure that bouncycastle artifacts conflict resolve",
+            "author": "Danny Thomas",
+            "date": "2026-03-11"
+        },
+        {
+            "module": "org.bouncycastle:bctsp-jdk14",
+            "with": "org.bouncycastle:bctsp-jdk16",
+            "reason": "Ensure that bouncycastle artifacts conflict resolve",
+            "author": "Danny Thomas",
+            "date": "2026-03-11"
+        },
+        {
+            "module": "org.bouncycastle:bctsp-jdk15",
+            "with": "org.bouncycastle:bctsp-jdk16",
+            "reason": "Ensure that bouncycastle artifacts conflict resolve",
+            "author": "Danny Thomas",
+            "date": "2026-03-11"
+        },
+        {
+            "module": "org.bouncycastle:bctsp-jdk15+",
+            "with": "org.bouncycastle:bctsp-jdk16",
+            "reason": "Ensure that bouncycastle artifacts conflict resolve",
+            "author": "Danny Thomas",
+            "date": "2026-03-11"
+        }
+    ],
+    "substitute": [],
+    "align": [],
+    "deny": [],
+    "exclude": [],
+    "reject": []
+}
