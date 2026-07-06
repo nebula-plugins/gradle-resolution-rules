@@ -21,6 +21,14 @@
                 "match": "^(\\d+\\.)?(\\d+\\.)?(\\*|\\d+)?(\\.pr\\d+)?",
                 "author": "Danny Thomas <dannyt@netflix.com>",
                 "date": "2016-05-19"
+            },
+            {
+                "group": "tools\\.jackson\\.(core|dataformat|datatype|jakarta\\.rs|jaxrs|jr|module)",
+                "includes": [],
+                "reason": "Align all Jackson 3 libraries (tools.jackson coordinates). Kept separate from the com.fasterxml.jackson (Jackson 2) group since the 2.x and 3.x lines coexist and are versioned independently.",
+                "match": "^(\\d+\\.)?(\\d+\\.)?(\\*|\\d+)?(\\.pr\\d+)?",
+                "author": "Jessie Jacobs <jjaco@netflix.com>",
+                "date": "2026-07-06"
             }
     ],
     "replace": [],
