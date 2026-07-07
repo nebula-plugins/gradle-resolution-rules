@@ -38,6 +38,60 @@ class AlignJacksonSpec extends RulesBaseSpecification {
         !result.output.contains('FAILED')
     }
 
+    def 'can align jackson 3.x libraries (tools.jackson coordinates)'() {
+        given:
+        buildFile << """\
+            dependencies {
+              implementation 'tools.jackson.core:jackson-core:3.0.0'
+              implementation 'tools.jackson.core:jackson-databind:3.0.3'
+              implementation 'tools.jackson.dataformat:jackson-dataformat-yaml:3.0.0'
+              implementation 'tools.jackson.datatype:jackson-datatype-joda:3.0.0'
+              implementation 'tools.jackson.module:jackson-module-blackbird:3.0.0'
+              implementation 'tools.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:3.0.0'
+            }
+            """.stripIndent()
+
+        when:
+        BuildResult result = runWithArgumentsSuccessfully('dI', '--dependency', 'tools.jackson')
+
+        then:
+        result.output.contains('By constraint: belongs to platform aligned-platform:align-jackson-1-for-tools.jackson.core-or-dataformat-or-datatype-or-jakarta.rs-or-jaxrs-or-jr-or-module:3.0.3')
+        def alignedVersion = "3.0.3"
+
+        result.output.contains("tools.jackson.core:jackson-core:$alignedVersion\n")
+        result.output.contains("tools.jackson.core:jackson-databind:$alignedVersion\n")
+        result.output.contains("tools.jackson.dataformat:jackson-dataformat-yaml:3.0.0 -> $alignedVersion\n")
+        result.output.contains("tools.jackson.datatype:jackson-datatype-joda:3.0.0 -> $alignedVersion\n")
+        result.output.contains("tools.jackson.module:jackson-module-blackbird:3.0.0 -> $alignedVersion\n")
+        result.output.contains("tools.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:3.0.0 -> $alignedVersion\n")
+        !result.output.contains('FAILED')
+    }
+
+    def 'jackson 2.x and jackson 3.x align independently'() {
+        given:
+        buildFile << """\
+            dependencies {
+              // Jackson 2 (com.fasterxml.jackson) line
+              implementation 'com.fasterxml.jackson.core:jackson-core:2.18.0'
+              implementation 'com.fasterxml.jackson.core:jackson-databind:2.19.1'
+
+              // Jackson 3 (tools.jackson) line
+              implementation 'tools.jackson.core:jackson-core:3.0.0'
+              implementation 'tools.jackson.core:jackson-databind:3.0.3'
+            }
+            """.stripIndent()
+
+        when:
+        BuildResult result = runWithArgumentsSuccessfully('dI', '--dependency', 'jackson')
+
+        then:
+        result.output.contains('com.fasterxml.jackson.core:jackson-core:2.18.0 -> 2.19.1\n')
+        result.output.contains('com.fasterxml.jackson.core:jackson-databind:2.19.1\n')
+        result.output.contains('tools.jackson.core:jackson-core:3.0.0 -> 3.0.3\n')
+        result.output.contains('tools.jackson.core:jackson-databind:3.0.3\n')
+        !result.output.contains('FAILED')
+    }
+
     def 'can align jackson 2.20.x libraries with annotations change'() {
         // 2.20.x dropped the patch version for the annotations library:
         // https://github.com/FasterXML/jackson-annotations/issues/294
